@@ -1,0 +1,7 @@
+learning_rate: 0.0001
+weight_decay: 0.00001
+batch_size: 32
+epochs: 1000
+
+feature_size: 256
+z_size: 100
