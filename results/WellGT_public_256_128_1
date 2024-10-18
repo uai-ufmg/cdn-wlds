@@ -33,3 +33,5 @@ MRR: 0.07216392883716004
 epoch: 21/500 - loss G: 7.7054 - loss encoder: 15.1145 - loss discrimination: 0.7855 - loss similarity: 0.0041 - margin: 0.10 - 1m 14s
 epoch: 22/500 - loss G: 5.6165 - loss encoder: 10.0322 - loss discrimination: 0.8621 - loss similarity: 0.0337 - margin: 0.10 - 1m 15s
 epoch: 23/500 - loss G: 3.7452 - loss encoder: 4.0385 - loss discrimination: 0.4704 - loss similarity: 0.0089 - margin: 0.10 - 1m 14s
+epoch: 24/500 - loss G: 5.6114 - loss encoder: 5.8121 - loss discrimination: 0.4483 - loss similarity: 0.0213 - margin: 0.10 - 1m 14s
+epoch: 25/500 - loss G: 4.2893 - loss encoder: 4.0619 - loss discrimination: 0.4294 - loss similarity: 0.0109 - margin: 0.10 - 1m 14s

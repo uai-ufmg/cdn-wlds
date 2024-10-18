@@ -4,10 +4,9 @@ This model consists of a self-supervised triplet approach that levers the genera
 
 # Execution
 
-To execute the WellGT training software, follow these bash commands:
+To execute the WellGT training software, follow this bash command:
 
 ```
-cd frente-5-gan
 python3 train.py --model <model> --dataset <dataset> --run <x>
 ```
 
