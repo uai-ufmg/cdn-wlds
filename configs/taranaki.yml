@@ -1,2 +1,2 @@
 dataset: 'taranaki'
-data_dir: 'datasets/taranaki/logs.csv'
+data_dir: 'PATH/TO/YOUR/DATASET/logs.csv'

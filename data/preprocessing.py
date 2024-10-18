@@ -44,27 +44,34 @@ def delete_outliers(df:pd.DataFrame, logs:list[str], q=[0.01, 0.99], verbose:boo
     
     return df
 
-def get_folds(dataset_name:str, fold_n:int=None):
-    """
-    Function to get list of wells in each fold.
-    Arguments:
-    ---------
-        - dataset_name (str): Name of the dataset (used to generate the file containing the folds)
-        - fold_n (int|None): Fold number to get. If None, select all folds (to cross-validate, for instance). If not None, select the fold number fold_n only (similar to a train-test environment).
-    Return:
-    ---------
-        - splits (list): List of folds. Each element a fold: a list containing the names of wells in training and validation for that fold.
-    """
-    
-    if fold_n == None:
-        with open(f'data/splits/{dataset_name}/splits.json', 'r') as f:
-            splits = json.load(f)
-    else:
-        with open(f'data/splits/{dataset_name}/splits.json', 'r') as f:
-            all_splits = json.load(f)
-        try:
-            splits = [all_splits[fold_n]]
-        except:
-            raise ValueError(f'No folder with number {fold_n}')
 
-    return splits
+def preprocess_data(train_data:pd.DataFrame, test_data:pd.DataFrame, logs:list[str], q=[0.01, 0.99], scaler=None, verbose:bool=True):
+    """
+    Function that preprocess already split data (winsorization and scaling).
+        Arguments:
+        ---------
+            - train_data (pd.DataFrame): Well log train dataset
+            - test_data (pd.DataFrame): Well log test dataset
+            - logs (list[str]): List of logs used (GR, NPHI, ...)
+            - q (list[float]): List of percentiles to clip in winsorization
+            - scaler: Scaler object used (if it is already fitted)
+            - verbose (bool): If True, print progress details. Else, does not print anything.
+        Return:
+        ---------
+            - train_data (pd.DataFrame): Well log train dataset preprocessed
+            - test_data (pd.DataFrame): Well log test dataset preprocessed
+            - scaler: Fitted scaler
+    """
+
+    train_data = delete_outliers(df=train_data, logs=logs, q=q, verbose=verbose)
+    test_data = delete_outliers(df=test_data, logs=logs, q=q, verbose=verbose)
+
+    if scaler == None:
+        scaler = Scaler()
+        train_data[logs] = scaler.fit_transform(train_data[logs])
+        test_data[logs] = scaler.transform(test_data[logs])
+    else:
+        train_data[logs] = scaler.transform(train_data[logs])
+        test_data[logs] = scaler.transform(test_data[logs])
+
+    return train_data, test_data, scaler

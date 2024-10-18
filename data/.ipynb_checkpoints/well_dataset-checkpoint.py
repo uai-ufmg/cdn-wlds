@@ -9,20 +9,7 @@ from .augmentation import Jitter, Scaling, MagWarp, TimeWarp
 
 class WellLogDataset(Dataset):
 
-    def __init__(self, df, columns_used, seq_size=256, interval_size=256, well_name_column_name='WELL', list_of_augmentations=[Jitter, Scaling, MagWarp, TimeWarp]):
-        """
-            Arguments:
-            ---------
-                - df (pd.DataFrame): Well log data
-                - columns_used (list[str]): List of logs used. Ex: GR, NPHI, ...
-                - seq_size (int): Size of sequence sent to the model
-                - interval_size (int): Size of the interval used to extract consecutive sequences
-                - well_name_column (str): Name of the column that indicates the well name in the data
-                - list_of_augmentations (list): List of augmentation functions to use.
-            Return:
-            ---------
-                None
-        """
+    def __init__(self, df, columns_used, seq_size=512, interval_size=200, well_name_column_name='WELL', list_of_augmentations=[Jitter, Scaling, MagWarp, TimeWarp]):
         
         self.seq_size = seq_size
         self.interval_size = interval_size
@@ -36,14 +23,6 @@ class WellLogDataset(Dataset):
         self.list_of_augmentations = list_of_augmentations
         
     def __create_dataset(self, df):
-        """
-            Arguments:
-            ---------
-                - df (pd.DataFrame): Well log data
-            Return:
-            ---------
-                - list_of_sequences (list): list of all sequences without null values in the dataset
-        """
         
         list_of_sequences = list()
         
@@ -69,22 +48,22 @@ class WellLogDataset(Dataset):
         
         return list_of_sequences
     
-    def apply_augmentation(self, sequence):
-        """
-            Arguments:
-            ---------
-                - sequence (pd.DataFrame): Well log sequence
-            Return:
-            ---------
-                - list_of_sequences (list): list of all sequences without null values in the dataset
-        """
+    def apply_augmentation(self, sequence, columns_used):
         augmented_sample = sequence.copy()
 
         num_elements = random.randint(1, len(self.list_of_augmentations))
         random_augmentations = random.sample(self.list_of_augmentations, num_elements)
 
         for i, func in enumerate(random_augmentations):
-            augmented_sample = func(augmented_sample, self.columns_used)
+            augmented_sample = func(augmented_sample, columns_used)
+            
+        '''augmentations = np.random.uniform(low=0.0, high=1.0, size=len(self.list_of_augmentations))
+        sample_augmentations = augmentations>0.5
+
+        for i, func in enumerate(self.list_of_augmentations):
+
+            if sample_augmentations[i].item():
+                augmented_sample = func(augmented_sample, columns_used)'''
 
         return augmented_sample
             

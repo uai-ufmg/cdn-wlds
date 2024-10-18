@@ -96,8 +96,8 @@ class Force(Data):
         data.sort_values(by=['WELL', 'DEPTH_MD'], inplace=True)
         data.reset_index(drop=True, inplace=True)
 
-        
         data['LITHOLOGY_NAMES'] = data.FORCE_2020_LITHOFACIES_LITHOLOGY.map(self.lithology_keys)
+        data = data[data["LITHOLOGY_NAMES"] != 'Basement']
 
         data = self.standardize_names(data)
 

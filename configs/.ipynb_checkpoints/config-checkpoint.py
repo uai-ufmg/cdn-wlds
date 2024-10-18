@@ -10,12 +10,18 @@ class ConfigArgs():
     def __init__(self):
         parser = argparse.ArgumentParser()
         parser.add_argument('--model', type=str, default='wellgt', help='Model name')
-        parser.add_argument('--lr', type=float, default=0.0001, help='Model name')
+        parser.add_argument('--lr', type=float, default=0.0001, help='Learning Rate')
+        parser.add_argument('--weight_decay', type=float, default=0.00001, help='Weight Decay')
+        parser.add_argument('--batch_size', type=int, default=32, help='Batch Size')
+        parser.add_argument('--epochs', type=int, default=500, help='Epochs')
+
+        parser.add_argument('--feature_size', type=int, default=256, help='Feature Size')
+        parser.add_argument('--z_size', type=int, default=100, help='Z vector size (for the GAN generator)')
+
         parser.add_argument('--dataset', type=str, default='public', help='Dataset name')
         parser.add_argument('--seq_size', type=int, default=256, help='Sequence size')
         parser.add_argument('--split_method', type=str, default='cv', help='Method used to split data')
         parser.add_argument('--interval_size', type=int, default=128, help='Interval between two sequences')
-        parser.add_argument('--margin', type=float, default=0.1, help='Triplet Loss Margin')
         parser.add_argument('--initial_margin', type=float, default=0.1, help='Initial Triplet Loss Margin')
         parser.add_argument('--final_margin', type=float, default=0.1, help='Final Triplet Loss Margin')
         parser.add_argument('--half_life', type=int, default=100, help='Half Life Triplet Loss Margin')
@@ -45,57 +51,49 @@ class ConfigArgs():
     def parse_args(self):
         
         args = self.parser.parse_args()
-        
-        model_name = args.model
-        lr = args.lr
-        dataset = args.dataset
-        seq_size = args.seq_size
-        split_method = args.split_method
-        interval_size = args.interval_size
 
-        margin = args.margin
-        initial_margin = args.initial_margin
-        final_margin = args.final_margin
-        half_life = args.half_life
-        swap = args.swap
-        
-        config_dir = args.config_dir
-        
-        save_model = args.save_model
-        save_dir = args.save_dir
-        
-        output_dir = args.output_dir
-        verbose = args.verbose
-        run = args.run
-        
         cfg = dict()
-        
-        cfg['split_method'] = split_method
 
-        cfg['margin'] = margin
-        cfg['initial_margin'] = initial_margin
-        cfg['final_margin'] = final_margin
-        cfg['half_life'] = half_life
-        cfg['swap'] = swap
+        cfg['learning_rate'] = args.lr
+        cfg['weight_decay'] = args.weight_decay
+        cfg['batch_size'] = args.batch_size
+        cfg['epochs'] = args.epochs
 
-        cfg['config_dir'] = config_dir
-        cfg['save_model'] = save_model
-        cfg['save_dir'] = save_dir
-        cfg['output_dir'] = output_dir
+        cfg['feature_size'] = args.feature_size
+        cfg['z_size'] = args.z_size
         
-        cfg['verbose'] = verbose
-        cfg['run'] = run
+        cfg['seq_size'] = args.seq_size
+        cfg['split_method'] = args.split_method
+        cfg['interval_size'] = args.interval_size
+
+        cfg['initial_margin'] = args.initial_margin
+        cfg['final_margin'] = args.final_margin
+        cfg['half_life'] = args.half_life
+        cfg['swap'] = args.swap
+
+        cfg['config_dir'] = args.config_dir
+        cfg['save_model'] = args.save_model
+        cfg['save_dir'] = args.save_dir
+        cfg['output_dir'] = args.output_dir
         
-        model_name = model_name.lower()
+        cfg['verbose'] = args.verbose
+        cfg['run'] = args.run
+        
+        model_name = args.model.lower()
         if model_name == 'wellgt':
             model_name = 'WellGT'
-            cfg_model_file = 'wellgt'
+        elif model_name == 'romanenkova':
+            model_name = 'Romanenkova'
+        elif model_name == 'byol':
+            model_name = 'BYOL'
+        elif model_name == 'vae':
+            model_name = 'VAE'
         else:
             raise NotImplementedError('Model name does not exist')
 
         cfg['model_name'] = model_name
         cfg['data_dir'] = []
-        cfg['dataset'] = dataset.lower()
+        cfg['dataset'] = args.dataset.lower()
         
         if cfg['dataset']=='public':
             with open(os.path.join(cfg['config_dir'], f'taranaki.yml'), 'r') as file:
@@ -115,10 +113,6 @@ class ConfigArgs():
             cfg_data = yaml.safe_load(file)
             cfg = {**cfg,**cfg_data}
 
-        with open(os.path.join(cfg['config_dir'], f'{cfg_model_file}.yml'), 'r') as file:
-            cfg_model = yaml.safe_load(file)
-            cfg = {**cfg,**cfg_model}
-
-        cfg['filename'] = f'{model_name}_{dataset}_{seq_size}_{interval_size}_{run}'
+        cfg['filename'] = f"{cfg['model_name']}_{cfg['dataset']}_{cfg['seq_size']}_{cfg['interval_size']}_{cfg['run']}"
         
         return cfg

@@ -1,2 +1,2 @@
 dataset: 'force'
-data_dir: 'datasets/force'
+data_dir: 'PATH/TO/YOUR/DATASET/'
