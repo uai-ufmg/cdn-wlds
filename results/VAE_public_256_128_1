@@ -1,0 +1,37 @@
+Epoch: 0/500 - Loss: 0.1958 - Error Loss: 0.1903 - KL Loss: -55.5092 - 0m 38s
+Accuracy@1: 0.15958815958815958
+Accuracy@5: 0.22737022737022736
+Accuracy@10: 0.2784212784212784
+MRR: 0.20238337174124757
+Accuracy@1-DTW: 0.305019305019305
+Accuracy@5-DTW: 0.37966537966537967
+Accuracy@10-DTW: 0.42213642213642216
+MRR-DTW: 0.34684319540380226
+Epoch: 1/500 - Loss: 0.0694 - Error Loss: 0.0648 - KL Loss: -46.0522 - 0m 37s
+Epoch: 2/500 - Loss: 0.0592 - Error Loss: 0.0548 - KL Loss: -43.7212 - 0m 37s
+Epoch: 3/500 - Loss: 0.0561 - Error Loss: 0.0521 - KL Loss: -39.7298 - 0m 37s
+Epoch: 4/500 - Loss: 0.0537 - Error Loss: 0.0500 - KL Loss: -37.1873 - 0m 37s
+Epoch: 5/500 - Loss: 0.0520 - Error Loss: 0.0483 - KL Loss: -36.7031 - 0m 37s
+Epoch: 6/500 - Loss: 0.0509 - Error Loss: 0.0470 - KL Loss: -38.6421 - 0m 37s
+Epoch: 7/500 - Loss: 0.0497 - Error Loss: 0.0454 - KL Loss: -42.6758 - 0m 37s
+Epoch: 8/500 - Loss: 0.0484 - Error Loss: 0.0449 - KL Loss: -35.3013 - 0m 37s
+Epoch: 9/500 - Loss: 0.0473 - Error Loss: 0.0438 - KL Loss: -35.0439 - 0m 37s
+Epoch: 10/500 - Loss: 0.0462 - Error Loss: 0.0427 - KL Loss: -34.9076 - 0m 37s
+Epoch: 11/500 - Loss: 0.0461 - Error Loss: 0.0427 - KL Loss: -34.2715 - 0m 37s
+Epoch: 12/500 - Loss: 0.0457 - Error Loss: 0.0422 - KL Loss: -34.4842 - 0m 37s
+Epoch: 13/500 - Loss: 0.0454 - Error Loss: 0.0419 - KL Loss: -34.4823 - 0m 37s
+Epoch: 14/500 - Loss: 0.0451 - Error Loss: 0.0416 - KL Loss: -34.6197 - 0m 37s
+Epoch: 15/500 - Loss: 0.0456 - Error Loss: 0.0420 - KL Loss: -36.3016 - 0m 37s
+Epoch: 16/500 - Loss: 0.0442 - Error Loss: 0.0407 - KL Loss: -34.8001 - 0m 37s
+Epoch: 17/500 - Loss: 0.0443 - Error Loss: 0.0408 - KL Loss: -34.7910 - 0m 37s
+Epoch: 18/500 - Loss: 0.0445 - Error Loss: 0.0409 - KL Loss: -35.4888 - 0m 37s
+Epoch: 19/500 - Loss: 0.0436 - Error Loss: 0.0400 - KL Loss: -36.2825 - 0m 37s
+Epoch: 20/500 - Loss: 0.0434 - Error Loss: 0.0399 - KL Loss: -34.8218 - 0m 37s
+Epoch: 21/500 - Loss: 0.0438 - Error Loss: 0.0402 - KL Loss: -35.2101 - 0m 37s
+Epoch: 22/500 - Loss: 0.0434 - Error Loss: 0.0399 - KL Loss: -34.8348 - 0m 37s
+Epoch: 23/500 - Loss: 0.0433 - Error Loss: 0.0398 - KL Loss: -35.0281 - 0m 37s
+Epoch: 24/500 - Loss: 0.0432 - Error Loss: 0.0397 - KL Loss: -35.2647 - 0m 37s
+Epoch: 25/500 - Loss: 0.0429 - Error Loss: 0.0392 - KL Loss: -36.8847 - 0m 38s
+Epoch: 26/500 - Loss: 0.0423 - Error Loss: 0.0387 - KL Loss: -35.5227 - 0m 37s
+Epoch: 27/500 - Loss: 0.0420 - Error Loss: 0.0385 - KL Loss: -35.6610 - 0m 37s
+Epoch: 28/500 - Loss: 0.0418 - Error Loss: 0.0382 - KL Loss: -35.9184 - 0m 37s

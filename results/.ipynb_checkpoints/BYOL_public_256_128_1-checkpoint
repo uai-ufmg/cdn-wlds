@@ -1,0 +1,11 @@
+Accuracy@1: 0.06992706992706993
+Accuracy@5: 0.14671814671814673
+Accuracy@10: 0.19390819390819392
+MRR: 0.11676947665405508
+Epoch: 0/500 - Loss: 0.9602 - 8m 36s
+Epoch: 1/500 - Loss: 0.4201 - 0m 52s
+Epoch: 2/500 - Loss: 0.3270 - 0m 52s
+Epoch: 3/500 - Loss: 0.2760 - 0m 52s
+Epoch: 4/500 - Loss: 0.2549 - 0m 52s
+Epoch: 5/500 - Loss: 0.2453 - 0m 52s
+Epoch: 6/500 - Loss: 0.2458 - 0m 51s

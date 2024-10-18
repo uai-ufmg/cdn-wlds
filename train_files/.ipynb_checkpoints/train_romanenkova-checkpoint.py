@@ -14,7 +14,6 @@ from torch.utils.data import Dataset, DataLoader
 from data import RomanenkovaDataset, WellLogDataset
 
 from models import ResNet18, ResNet50
-from models import dtw_distance
 
 from utils import mean_reciprocal_rank, accuracy_at_k
 
@@ -112,7 +111,6 @@ def evaluate_similarity(model, test_dataloader, path_file, device):
     with torch.no_grad():
     
         y_pred_romanenkova = []
-        y_pred_dtw = []
         y_true = []
         sequences = []
         
@@ -126,30 +124,21 @@ def evaluate_similarity(model, test_dataloader, path_file, device):
             
             distances = []
     
-            latent_romanenkova_original = model(anchor_well).detach()
-            latent_romanenkova_augmented = model(positive_well).detach()
+            latent_romanenkova_original = model(anchor_well)
+            latent_romanenkova_augmented = model(positive_well)
             
             positive_well = positive_well.permute(0, 2, 1).cpu().numpy()
     
             latent_dataset_vectors_romanenkova_cpy = latent_dataset_vectors_romanenkova.clone()
             latent_dataset_vectors_romanenkova_cpy = torch.cat((latent_dataset_vectors_romanenkova_cpy, latent_romanenkova_augmented), dim=0)
             
-            latent_dataset_cpy = copy.deepcopy(latent_dataset)
+            latent_dataset_cpy = latent_dataset.copy()
             latent_dataset_cpy.append(['augmentation', 'augmented', positive_well, latent_romanenkova_augmented])
             
-            dtw_distances = []
             for j in range(len(latent_dataset_cpy)):
                 well2, pair_name, pair_sequence, latent_romanenkova_pair = latent_dataset_cpy[j]
                 if well2 == 'augmentation':
                     y_true.append(j)
-                #print(type(pair_sequence))
-                #anchor_well_cpy = anchor_well.permute(0, 2, 1).cpu().numpy()
-                pair_sequence_cpy = np.transpose(pair_sequence, (0, 2, 1))
-                argument1 = anchor_well.squeeze(0).cpu()
-                argument2 = torch.tensor(pair_sequence_cpy.squeeze(0)).cpu()
-                dtw_distance_number = dtw_distance(argument1, argument2)
-                if wellname != well2:
-                    dtw_distances.append([j, dtw_distance_number])
                 
             euclidean_romanenkova_distance = F.pairwise_distance(latent_romanenkova_original, latent_dataset_vectors_romanenkova_cpy, keepdim = True).cpu().numpy()
             
@@ -157,17 +146,13 @@ def evaluate_similarity(model, test_dataloader, path_file, device):
             
             anchor_well = anchor_well.cpu().numpy()
             romanenkova_distances = sorted(romanenkova_distances, reverse=False, key=lambda x: x[1])
-            dtw_distances = sorted(dtw_distances, reverse=False, key=lambda x: x[1])
     
-            ranking_dtw = [k[0] for k in dtw_distances]
             ranking_romanenkova = [k[0] for k in romanenkova_distances]
     
             y_pred_romanenkova.append(ranking_romanenkova)
-            y_pred_dtw.append(ranking_dtw)
 
         print(f'tamanho: {len(y_true)}')
         assert len(y_true) == len(y_pred_romanenkova), "Y_true and Y_pred from Romanenkova should be the same length"
-        assert len(y_true) == len(y_pred_dtw), "Y_true and Y_pred from DTW should be the same length"
 
     metrics = dict()
     metrics['accuracy@1'] = dict()
@@ -176,23 +161,18 @@ def evaluate_similarity(model, test_dataloader, path_file, device):
     metrics['mrr'] = dict()
 
     metrics['accuracy@1']['Romanenkova'] = accuracy_at_k(y_true, y_pred_romanenkova, k=1)
-    metrics['accuracy@1']['DTW'] = accuracy_at_k(y_true, y_pred_dtw, k=1)
     
     metrics['accuracy@5']['Romanenkova'] = accuracy_at_k(y_true, y_pred_romanenkova, k=5)
-    metrics['accuracy@5']['DTW'] = accuracy_at_k(y_true, y_pred_dtw, k=5)
     
     metrics['accuracy@10']['Romanenkova'] = accuracy_at_k(y_true, y_pred_romanenkova, k=10)
-    metrics['accuracy@10']['DTW'] = accuracy_at_k(y_true, y_pred_dtw, k=10)
     
     metrics['mrr']['Romanenkova'] = mean_reciprocal_rank(y_true, y_pred_romanenkova)
-    metrics['mrr']['DTW'] = mean_reciprocal_rank(y_true, y_pred_dtw)
     if os.path.isfile(path_file):
         write_mode = "a"
     else:
         write_mode = "w"
     with open(path_file, write_mode) as f:
         f.write(f"Accuracy@1: {metrics['accuracy@1']['Romanenkova']}\nAccuracy@5: {metrics['accuracy@5']['Romanenkova']}\nAccuracy@10: {metrics['accuracy@10']['Romanenkova']}\nMRR: {metrics['mrr']['Romanenkova']}\n")
-        f.write(f"Accuracy@1-DTW: {metrics['accuracy@1']['DTW']}\nAccuracy@5-DTW: {metrics['accuracy@5']['DTW']}\nAccuracy@10-DTW: {metrics['accuracy@10']['DTW']}\nMRR-DTW: {metrics['mrr']['DTW']}\n")
 
 
 def train_romanenkova(cfg, df_train, df_test, device):

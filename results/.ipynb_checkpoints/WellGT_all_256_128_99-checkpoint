@@ -1,5 +1,0 @@
-lr: 0.0001
-epochs: 1000
-initial_margin: 0.1
-final_margin: 0.1
-swap: True

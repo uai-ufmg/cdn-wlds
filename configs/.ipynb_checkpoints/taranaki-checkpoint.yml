@@ -1,2 +1,2 @@
 dataset: 'taranaki'
-data_dir: 'PATH/TO/YOUR/DATASET/logs.csv'
+data_dir: '/pgeoprj/godeep/dados/l2_datasets/publico/taranaki/logs.csv'

@@ -5,6 +5,8 @@ import numpy as np
 import random
 from tqdm import tqdm
 
+from sklearn.model_selection import train_test_split
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -64,14 +66,15 @@ if __name__=='__main__':
             train(cfg, train_data, val_data, device)
             
     elif cfg['split_method'] == 'tt':
-        train_wells, test_wells = train_test_split(data, test_size=0.15, shuffle=True, random_state=cfg['seed_number'])
+        list_of_wells = list(df['WELL'].unique())
+        train_wells, test_wells = train_test_split(list_of_wells, test_size=0.15, shuffle=True, random_state=cfg['seed_number'])
         
-        train_data = data[data['WELL'].isin(train_wells)]
-        test_data = data[data['WELL'].isin(test_wells)]
+        train_data = df[df['WELL'].isin(train_wells)]
+        test_data = df[df['WELL'].isin(test_wells)]
 
-        train_data, test_data, scaler = preprocess_data(train_data, test_data, logs=cfg['columns_used'], q=[0.01, 0.99], verbose=cfg['verbose'])
+        train_data, test_data, scaler = preprocess_data(logs=cfg['columns_used'], train_data=train_data, test_data=test_data, q=[0.01, 0.99], verbose=cfg['verbose'])
 
-        train(cfg, train_data, val_data, device)
+        train(cfg, train_data, test_data, device)
         
     elif cfg['split_method'] == 'tvt':
         raise NotImplementedError('Train-Validation-Test is not implemented for training')

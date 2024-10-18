@@ -20,7 +20,7 @@ class ConfigArgs():
 
         parser.add_argument('--dataset', type=str, default='public', help='Dataset name')
         parser.add_argument('--seq_size', type=int, default=256, help='Sequence size')
-        parser.add_argument('--split_method', type=str, default='cv', help='Method used to split data')
+        parser.add_argument('--split_method', type=str, default='tt', help='Method used to split data')
         parser.add_argument('--interval_size', type=int, default=128, help='Interval between two sequences')
         parser.add_argument('--initial_margin', type=float, default=0.1, help='Initial Triplet Loss Margin')
         parser.add_argument('--final_margin', type=float, default=0.1, help='Final Triplet Loss Margin')

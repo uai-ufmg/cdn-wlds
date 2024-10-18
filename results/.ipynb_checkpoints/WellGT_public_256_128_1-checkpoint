@@ -1,0 +1,6 @@
+epoch: 0/500 - loss G: 8.3139 - loss encoder: 33.7372 - loss discrimination: 1.0063 - loss similarity: 0.0654 - margin: 0.10 - 1m 17s
+Accuracy@1: 0.04118404118404118
+Accuracy@5: 0.08794508794508794
+Accuracy@10: 0.12526812526812528
+MRR: 0.07216392883716004
+epoch: 1/500 - loss G: 10.2672 - loss encoder: 25.5346 - loss discrimination: 0.7020 - loss similarity: 0.0575 - margin: 0.10 - 1m 13s
