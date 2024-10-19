@@ -5,4 +5,4 @@ To run the experiment, it is necessary to run the **train.py** file (instruction
 
 By default, the experiment is ran every 50 epochs. 
 
-The files in here contain the experiment results in a train-test environment. The results shown in the paper are from a cross-validation training format, from which the mean and the standard deviation were taken.
+The files in here contain the experiment results in a train-test environment in 500 epochs. The results shown in the paper are from a cross-validation training format in 1000 epochs (the biggest gain from the increase in epochs comes from the WellGT), from which the mean and the standard deviation were taken.

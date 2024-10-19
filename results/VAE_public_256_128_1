@@ -39,3 +39,543 @@ Epoch: 29/500 - Loss: 0.0420 - Error Loss: 0.0384 - KL Loss: -35.7832 - 0m 37s
 Epoch: 30/500 - Loss: 0.0415 - Error Loss: 0.0379 - KL Loss: -35.9676 - 0m 37s
 Epoch: 31/500 - Loss: 0.0416 - Error Loss: 0.0380 - KL Loss: -36.2538 - 0m 37s
 Epoch: 32/500 - Loss: 0.0419 - Error Loss: 0.0383 - KL Loss: -36.0807 - 0m 37s
+Epoch: 33/500 - Loss: 0.0414 - Error Loss: 0.0377 - KL Loss: -37.2385 - 0m 37s
+Epoch: 34/500 - Loss: 0.0407 - Error Loss: 0.0371 - KL Loss: -36.7844 - 0m 37s
+Epoch: 35/500 - Loss: 0.0403 - Error Loss: 0.0366 - KL Loss: -36.7352 - 0m 37s
+Epoch: 36/500 - Loss: 0.0404 - Error Loss: 0.0367 - KL Loss: -36.8190 - 0m 37s
+Epoch: 37/500 - Loss: 0.0404 - Error Loss: 0.0366 - KL Loss: -37.3658 - 0m 37s
+Epoch: 38/500 - Loss: 0.0402 - Error Loss: 0.0364 - KL Loss: -37.0274 - 0m 37s
+Epoch: 39/500 - Loss: 0.0395 - Error Loss: 0.0358 - KL Loss: -37.1400 - 0m 37s
+Epoch: 40/500 - Loss: 0.0395 - Error Loss: 0.0357 - KL Loss: -37.3783 - 0m 37s
+Epoch: 41/500 - Loss: 0.0390 - Error Loss: 0.0352 - KL Loss: -37.9036 - 0m 37s
+Epoch: 42/500 - Loss: 0.0407 - Error Loss: 0.0367 - KL Loss: -39.9685 - 0m 37s
+Epoch: 43/500 - Loss: 0.0389 - Error Loss: 0.0351 - KL Loss: -37.9202 - 0m 37s
+Epoch: 44/500 - Loss: 0.0385 - Error Loss: 0.0347 - KL Loss: -37.9401 - 0m 37s
+Epoch: 45/500 - Loss: 0.0386 - Error Loss: 0.0349 - KL Loss: -37.8505 - 0m 37s
+Epoch: 46/500 - Loss: 0.0386 - Error Loss: 0.0348 - KL Loss: -37.8073 - 0m 37s
+Epoch: 47/500 - Loss: 0.0379 - Error Loss: 0.0340 - KL Loss: -38.1549 - 0m 37s
+Epoch: 48/500 - Loss: 0.0381 - Error Loss: 0.0343 - KL Loss: -38.1287 - 0m 37s
+Epoch: 49/500 - Loss: 0.0377 - Error Loss: 0.0339 - KL Loss: -38.2580 - 0m 37s
+Epoch: 50/500 - Loss: 0.0373 - Error Loss: 0.0335 - KL Loss: -38.4149 - 0m 37s
+Accuracy@1: 0.38781638781638783
+Accuracy@5: 0.4495924495924496
+Accuracy@10: 0.47533247533247536
+MRR: 0.41973510988478985
+Accuracy@1-DTW: 0.3045903045903046
+Accuracy@5-DTW: 0.3697983697983698
+Accuracy@10-DTW: 0.41055341055341055
+MRR-DTW: 0.3421807837210656
+Epoch: 51/500 - Loss: 0.0375 - Error Loss: 0.0337 - KL Loss: -38.6083 - 0m 37s
+Epoch: 52/500 - Loss: 0.0375 - Error Loss: 0.0337 - KL Loss: -38.6874 - 0m 37s
+Epoch: 53/500 - Loss: 0.0373 - Error Loss: 0.0334 - KL Loss: -38.7766 - 0m 37s
+Epoch: 54/500 - Loss: 0.0380 - Error Loss: 0.0342 - KL Loss: -38.6149 - 0m 37s
+Epoch: 55/500 - Loss: 0.0375 - Error Loss: 0.0337 - KL Loss: -38.6450 - 0m 37s
+Epoch: 56/500 - Loss: 0.0372 - Error Loss: 0.0333 - KL Loss: -38.7568 - 0m 37s
+Epoch: 57/500 - Loss: 0.0370 - Error Loss: 0.0331 - KL Loss: -39.3402 - 0m 37s
+Epoch: 58/500 - Loss: 0.0370 - Error Loss: 0.0330 - KL Loss: -39.0841 - 0m 37s
+Epoch: 59/500 - Loss: 0.0369 - Error Loss: 0.0330 - KL Loss: -38.9536 - 0m 38s
+Epoch: 60/500 - Loss: 0.0368 - Error Loss: 0.0329 - KL Loss: -39.1472 - 0m 37s
+Epoch: 61/500 - Loss: 0.0367 - Error Loss: 0.0328 - KL Loss: -39.3729 - 0m 37s
+Epoch: 62/500 - Loss: 0.0365 - Error Loss: 0.0326 - KL Loss: -39.3949 - 0m 37s
+Epoch: 63/500 - Loss: 0.0363 - Error Loss: 0.0323 - KL Loss: -40.0692 - 0m 37s
+Epoch: 64/500 - Loss: 0.0362 - Error Loss: 0.0322 - KL Loss: -39.6269 - 0m 37s
+Epoch: 65/500 - Loss: 0.0363 - Error Loss: 0.0322 - KL Loss: -40.4995 - 0m 37s
+Epoch: 66/500 - Loss: 0.0360 - Error Loss: 0.0320 - KL Loss: -39.8160 - 0m 37s
+Epoch: 67/500 - Loss: 0.0363 - Error Loss: 0.0323 - KL Loss: -39.8638 - 0m 37s
+Epoch: 68/500 - Loss: 0.0359 - Error Loss: 0.0319 - KL Loss: -40.1142 - 0m 37s
+Epoch: 69/500 - Loss: 0.0357 - Error Loss: 0.0317 - KL Loss: -40.0533 - 0m 38s
+Epoch: 70/500 - Loss: 0.0358 - Error Loss: 0.0316 - KL Loss: -41.3426 - 0m 37s
+Epoch: 71/500 - Loss: 0.0361 - Error Loss: 0.0321 - KL Loss: -40.1789 - 0m 37s
+Epoch: 72/500 - Loss: 0.0353 - Error Loss: 0.0312 - KL Loss: -40.4551 - 0m 37s
+Epoch: 73/500 - Loss: 0.0357 - Error Loss: 0.0316 - KL Loss: -40.5812 - 0m 37s
+Epoch: 74/500 - Loss: 0.0354 - Error Loss: 0.0314 - KL Loss: -40.5486 - 0m 37s
+Epoch: 75/500 - Loss: 0.0357 - Error Loss: 0.0316 - KL Loss: -40.7199 - 0m 37s
+Epoch: 76/500 - Loss: 0.0354 - Error Loss: 0.0313 - KL Loss: -40.7227 - 0m 37s
+Epoch: 77/500 - Loss: 0.0354 - Error Loss: 0.0313 - KL Loss: -40.7630 - 0m 37s
+Epoch: 78/500 - Loss: 0.0353 - Error Loss: 0.0312 - KL Loss: -40.8175 - 0m 37s
+Epoch: 79/500 - Loss: 0.0352 - Error Loss: 0.0311 - KL Loss: -40.9629 - 0m 37s
+Epoch: 80/500 - Loss: 0.0352 - Error Loss: 0.0311 - KL Loss: -41.2076 - 0m 37s
+Epoch: 81/500 - Loss: 0.0350 - Error Loss: 0.0309 - KL Loss: -41.0495 - 0m 37s
+Epoch: 82/500 - Loss: 0.0353 - Error Loss: 0.0312 - KL Loss: -41.0093 - 0m 37s
+Epoch: 83/500 - Loss: 0.0350 - Error Loss: 0.0309 - KL Loss: -41.0934 - 0m 38s
+Epoch: 84/500 - Loss: 0.0351 - Error Loss: 0.0310 - KL Loss: -41.2249 - 0m 37s
+Epoch: 85/500 - Loss: 0.0348 - Error Loss: 0.0306 - KL Loss: -41.3890 - 0m 38s
+Epoch: 86/500 - Loss: 0.0347 - Error Loss: 0.0306 - KL Loss: -41.3071 - 0m 37s
+Epoch: 87/500 - Loss: 0.0349 - Error Loss: 0.0307 - KL Loss: -41.2526 - 0m 37s
+Epoch: 88/500 - Loss: 0.0349 - Error Loss: 0.0307 - KL Loss: -41.6405 - 0m 37s
+Epoch: 89/500 - Loss: 0.0356 - Error Loss: 0.0313 - KL Loss: -42.9051 - 0m 37s
+Epoch: 90/500 - Loss: 0.0346 - Error Loss: 0.0304 - KL Loss: -41.7403 - 0m 37s
+Epoch: 91/500 - Loss: 0.0347 - Error Loss: 0.0305 - KL Loss: -41.6552 - 0m 37s
+Epoch: 92/500 - Loss: 0.0345 - Error Loss: 0.0303 - KL Loss: -41.6241 - 0m 37s
+Epoch: 93/500 - Loss: 0.0343 - Error Loss: 0.0300 - KL Loss: -42.1742 - 0m 37s
+Epoch: 94/500 - Loss: 0.0348 - Error Loss: 0.0307 - KL Loss: -41.6531 - 0m 37s
+Epoch: 95/500 - Loss: 0.0343 - Error Loss: 0.0301 - KL Loss: -42.0206 - 0m 37s
+Epoch: 96/500 - Loss: 0.0344 - Error Loss: 0.0302 - KL Loss: -41.9374 - 0m 37s
+Epoch: 97/500 - Loss: 0.0344 - Error Loss: 0.0302 - KL Loss: -42.0135 - 0m 37s
+Epoch: 98/500 - Loss: 0.0344 - Error Loss: 0.0302 - KL Loss: -42.1147 - 0m 37s
+Epoch: 99/500 - Loss: 0.0341 - Error Loss: 0.0299 - KL Loss: -42.1331 - 0m 37s
+Epoch: 100/500 - Loss: 0.0330 - Error Loss: 0.0287 - KL Loss: -42.5820 - 0m 37s
+Accuracy@1: 0.40540540540540543
+Accuracy@5: 0.45045045045045046
+Accuracy@10: 0.4693264693264693
+MRR: 0.428611455590028
+Accuracy@1-DTW: 0.305019305019305
+Accuracy@5-DTW: 0.3732303732303732
+Accuracy@10-DTW: 0.42213642213642216
+MRR-DTW: 0.3454275864250902
+Epoch: 101/500 - Loss: 0.0328 - Error Loss: 0.0285 - KL Loss: -42.8632 - 0m 37s
+Epoch: 102/500 - Loss: 0.0327 - Error Loss: 0.0284 - KL Loss: -42.7034 - 0m 37s
+Epoch: 103/500 - Loss: 0.0327 - Error Loss: 0.0285 - KL Loss: -42.7035 - 0m 37s
+Epoch: 104/500 - Loss: 0.0326 - Error Loss: 0.0283 - KL Loss: -42.8491 - 0m 37s
+Epoch: 105/500 - Loss: 0.0326 - Error Loss: 0.0283 - KL Loss: -42.8554 - 0m 36s
+Epoch: 106/500 - Loss: 0.0327 - Error Loss: 0.0285 - KL Loss: -42.7434 - 0m 37s
+Epoch: 107/500 - Loss: 0.0326 - Error Loss: 0.0283 - KL Loss: -42.8478 - 0m 37s
+Epoch: 108/500 - Loss: 0.0327 - Error Loss: 0.0284 - KL Loss: -42.8365 - 0m 37s
+Epoch: 109/500 - Loss: 0.0323 - Error Loss: 0.0280 - KL Loss: -43.0587 - 0m 36s
+Epoch: 110/500 - Loss: 0.0324 - Error Loss: 0.0281 - KL Loss: -43.4192 - 0m 37s
+Epoch: 111/500 - Loss: 0.0325 - Error Loss: 0.0282 - KL Loss: -42.9913 - 0m 37s
+Epoch: 112/500 - Loss: 0.0323 - Error Loss: 0.0280 - KL Loss: -43.0518 - 0m 37s
+Epoch: 113/500 - Loss: 0.0323 - Error Loss: 0.0280 - KL Loss: -43.1804 - 0m 37s
+Epoch: 114/500 - Loss: 0.0323 - Error Loss: 0.0279 - KL Loss: -43.2076 - 0m 37s
+Epoch: 115/500 - Loss: 0.0324 - Error Loss: 0.0281 - KL Loss: -43.3381 - 0m 37s
+Epoch: 116/500 - Loss: 0.0323 - Error Loss: 0.0280 - KL Loss: -43.5102 - 0m 37s
+Epoch: 117/500 - Loss: 0.0321 - Error Loss: 0.0278 - KL Loss: -43.4030 - 0m 37s
+Epoch: 118/500 - Loss: 0.0321 - Error Loss: 0.0278 - KL Loss: -43.5078 - 0m 37s
+Epoch: 119/500 - Loss: 0.0322 - Error Loss: 0.0278 - KL Loss: -43.6266 - 0m 37s
+Epoch: 120/500 - Loss: 0.0322 - Error Loss: 0.0279 - KL Loss: -43.4441 - 0m 37s
+Epoch: 121/500 - Loss: 0.0321 - Error Loss: 0.0277 - KL Loss: -43.6312 - 0m 37s
+Epoch: 122/500 - Loss: 0.0322 - Error Loss: 0.0278 - KL Loss: -43.5487 - 0m 37s
+Epoch: 123/500 - Loss: 0.0322 - Error Loss: 0.0278 - KL Loss: -43.7233 - 0m 37s
+Epoch: 124/500 - Loss: 0.0322 - Error Loss: 0.0279 - KL Loss: -43.5760 - 0m 37s
+Epoch: 125/500 - Loss: 0.0322 - Error Loss: 0.0278 - KL Loss: -43.7003 - 0m 37s
+Epoch: 126/500 - Loss: 0.0322 - Error Loss: 0.0279 - KL Loss: -43.6398 - 0m 37s
+Epoch: 127/500 - Loss: 0.0321 - Error Loss: 0.0278 - KL Loss: -43.8373 - 0m 37s
+Epoch: 128/500 - Loss: 0.0321 - Error Loss: 0.0277 - KL Loss: -43.7976 - 0m 37s
+Epoch: 129/500 - Loss: 0.0320 - Error Loss: 0.0276 - KL Loss: -43.8385 - 0m 37s
+Epoch: 130/500 - Loss: 0.0321 - Error Loss: 0.0277 - KL Loss: -43.9172 - 0m 37s
+Epoch: 131/500 - Loss: 0.0321 - Error Loss: 0.0276 - KL Loss: -44.3331 - 0m 37s
+Epoch: 132/500 - Loss: 0.0319 - Error Loss: 0.0275 - KL Loss: -44.1653 - 0m 37s
+Epoch: 133/500 - Loss: 0.0319 - Error Loss: 0.0275 - KL Loss: -44.2471 - 0m 37s
+Epoch: 134/500 - Loss: 0.0319 - Error Loss: 0.0275 - KL Loss: -44.0836 - 0m 37s
+Epoch: 135/500 - Loss: 0.0319 - Error Loss: 0.0274 - KL Loss: -44.4329 - 0m 37s
+Epoch: 136/500 - Loss: 0.0319 - Error Loss: 0.0274 - KL Loss: -44.5569 - 0m 37s
+Epoch: 137/500 - Loss: 0.0319 - Error Loss: 0.0275 - KL Loss: -44.3408 - 0m 37s
+Epoch: 138/500 - Loss: 0.0319 - Error Loss: 0.0275 - KL Loss: -44.3472 - 0m 37s
+Epoch: 139/500 - Loss: 0.0318 - Error Loss: 0.0274 - KL Loss: -44.5091 - 0m 37s
+Epoch: 140/500 - Loss: 0.0318 - Error Loss: 0.0273 - KL Loss: -44.6316 - 0m 37s
+Epoch: 141/500 - Loss: 0.0319 - Error Loss: 0.0275 - KL Loss: -44.4900 - 0m 37s
+Epoch: 142/500 - Loss: 0.0318 - Error Loss: 0.0273 - KL Loss: -44.7303 - 0m 37s
+Epoch: 143/500 - Loss: 0.0318 - Error Loss: 0.0273 - KL Loss: -44.5971 - 0m 37s
+Epoch: 144/500 - Loss: 0.0317 - Error Loss: 0.0273 - KL Loss: -44.6863 - 0m 37s
+Epoch: 145/500 - Loss: 0.0317 - Error Loss: 0.0272 - KL Loss: -44.7263 - 0m 38s
+Epoch: 146/500 - Loss: 0.0317 - Error Loss: 0.0272 - KL Loss: -44.8258 - 0m 37s
+Epoch: 147/500 - Loss: 0.0316 - Error Loss: 0.0271 - KL Loss: -44.9113 - 0m 37s
+Epoch: 148/500 - Loss: 0.0316 - Error Loss: 0.0271 - KL Loss: -45.0388 - 0m 37s
+Epoch: 149/500 - Loss: 0.0315 - Error Loss: 0.0270 - KL Loss: -44.9928 - 0m 37s
+Epoch: 150/500 - Loss: 0.0317 - Error Loss: 0.0272 - KL Loss: -45.0484 - 0m 37s
+Accuracy@1: 0.42814242814242814
+Accuracy@5: 0.47533247533247536
+Accuracy@10: 0.4882024882024882
+MRR: 0.4519225569516787
+Accuracy@1-DTW: 0.3131703131703132
+Accuracy@5-DTW: 0.38524238524238524
+Accuracy@10-DTW: 0.42256542256542257
+MRR-DTW: 0.354260651641013
+Epoch: 151/500 - Loss: 0.0317 - Error Loss: 0.0271 - KL Loss: -45.1038 - 0m 37s
+Epoch: 152/500 - Loss: 0.0317 - Error Loss: 0.0272 - KL Loss: -45.2735 - 0m 37s
+Epoch: 153/500 - Loss: 0.0316 - Error Loss: 0.0271 - KL Loss: -45.2744 - 0m 37s
+Epoch: 154/500 - Loss: 0.0315 - Error Loss: 0.0270 - KL Loss: -45.3972 - 0m 37s
+Epoch: 155/500 - Loss: 0.0316 - Error Loss: 0.0270 - KL Loss: -45.4635 - 0m 37s
+Epoch: 156/500 - Loss: 0.0316 - Error Loss: 0.0271 - KL Loss: -45.3934 - 0m 37s
+Epoch: 157/500 - Loss: 0.0315 - Error Loss: 0.0269 - KL Loss: -45.5639 - 0m 37s
+Epoch: 158/500 - Loss: 0.0315 - Error Loss: 0.0269 - KL Loss: -45.7153 - 0m 37s
+Epoch: 159/500 - Loss: 0.0315 - Error Loss: 0.0269 - KL Loss: -45.6059 - 0m 37s
+Epoch: 160/500 - Loss: 0.0316 - Error Loss: 0.0271 - KL Loss: -45.4588 - 0m 37s
+Epoch: 161/500 - Loss: 0.0316 - Error Loss: 0.0270 - KL Loss: -45.7831 - 0m 37s
+Epoch: 162/500 - Loss: 0.0316 - Error Loss: 0.0270 - KL Loss: -45.7266 - 0m 37s
+Epoch: 163/500 - Loss: 0.0314 - Error Loss: 0.0268 - KL Loss: -45.9232 - 0m 37s
+Epoch: 164/500 - Loss: 0.0314 - Error Loss: 0.0269 - KL Loss: -45.8329 - 0m 37s
+Epoch: 165/500 - Loss: 0.0328 - Error Loss: 0.0281 - KL Loss: -46.9386 - 0m 37s
+Epoch: 166/500 - Loss: 0.0316 - Error Loss: 0.0270 - KL Loss: -45.8385 - 0m 37s
+Epoch: 167/500 - Loss: 0.0313 - Error Loss: 0.0267 - KL Loss: -46.0653 - 0m 37s
+Epoch: 168/500 - Loss: 0.0315 - Error Loss: 0.0269 - KL Loss: -45.8092 - 0m 36s
+Epoch: 169/500 - Loss: 0.0314 - Error Loss: 0.0268 - KL Loss: -45.8310 - 0m 36s
+Epoch: 170/500 - Loss: 0.0313 - Error Loss: 0.0267 - KL Loss: -45.9562 - 0m 37s
+Epoch: 171/500 - Loss: 0.0315 - Error Loss: 0.0269 - KL Loss: -45.8567 - 0m 36s
+Epoch: 172/500 - Loss: 0.0316 - Error Loss: 0.0270 - KL Loss: -45.7607 - 0m 37s
+Epoch: 173/500 - Loss: 0.0312 - Error Loss: 0.0266 - KL Loss: -46.2210 - 0m 37s
+Epoch: 174/500 - Loss: 0.0314 - Error Loss: 0.0268 - KL Loss: -46.1157 - 0m 37s
+Epoch: 175/500 - Loss: 0.0313 - Error Loss: 0.0267 - KL Loss: -46.3124 - 0m 36s
+Epoch: 176/500 - Loss: 0.0313 - Error Loss: 0.0267 - KL Loss: -46.1330 - 0m 37s
+Epoch: 177/500 - Loss: 0.0311 - Error Loss: 0.0265 - KL Loss: -46.4319 - 0m 37s
+Epoch: 178/500 - Loss: 0.0312 - Error Loss: 0.0266 - KL Loss: -46.3982 - 0m 37s
+Epoch: 179/500 - Loss: 0.0315 - Error Loss: 0.0268 - KL Loss: -46.1324 - 0m 37s
+Epoch: 180/500 - Loss: 0.0311 - Error Loss: 0.0265 - KL Loss: -46.5371 - 0m 37s
+Epoch: 181/500 - Loss: 0.0317 - Error Loss: 0.0270 - KL Loss: -46.7993 - 0m 37s
+Epoch: 182/500 - Loss: 0.0312 - Error Loss: 0.0266 - KL Loss: -46.6054 - 0m 38s
+Epoch: 183/500 - Loss: 0.0312 - Error Loss: 0.0266 - KL Loss: -46.5781 - 0m 37s
+Epoch: 184/500 - Loss: 0.0311 - Error Loss: 0.0264 - KL Loss: -46.6382 - 0m 37s
+Epoch: 185/500 - Loss: 0.0313 - Error Loss: 0.0267 - KL Loss: -46.5229 - 0m 37s
+Epoch: 186/500 - Loss: 0.0311 - Error Loss: 0.0264 - KL Loss: -46.7309 - 0m 37s
+Epoch: 187/500 - Loss: 0.0311 - Error Loss: 0.0265 - KL Loss: -46.6995 - 0m 37s
+Epoch: 188/500 - Loss: 0.0311 - Error Loss: 0.0264 - KL Loss: -46.7344 - 0m 37s
+Epoch: 189/500 - Loss: 0.0312 - Error Loss: 0.0265 - KL Loss: -46.7723 - 0m 37s
+Epoch: 190/500 - Loss: 0.0324 - Error Loss: 0.0276 - KL Loss: -48.0322 - 0m 37s
+Epoch: 191/500 - Loss: 0.0311 - Error Loss: 0.0265 - KL Loss: -46.8918 - 0m 37s
+Epoch: 192/500 - Loss: 0.0313 - Error Loss: 0.0267 - KL Loss: -46.8144 - 0m 37s
+Epoch: 193/500 - Loss: 0.0315 - Error Loss: 0.0268 - KL Loss: -47.4808 - 0m 35s
+Epoch: 194/500 - Loss: 0.0312 - Error Loss: 0.0265 - KL Loss: -47.0141 - 0m 36s
+Epoch: 195/500 - Loss: 0.0309 - Error Loss: 0.0262 - KL Loss: -46.9579 - 0m 36s
+Epoch: 196/500 - Loss: 0.0310 - Error Loss: 0.0263 - KL Loss: -47.0496 - 0m 36s
+Epoch: 197/500 - Loss: 0.0311 - Error Loss: 0.0264 - KL Loss: -47.0630 - 0m 36s
+Epoch: 198/500 - Loss: 0.0310 - Error Loss: 0.0263 - KL Loss: -47.1406 - 0m 36s
+Epoch: 199/500 - Loss: 0.0311 - Error Loss: 0.0264 - KL Loss: -47.0283 - 0m 36s
+Epoch: 200/500 - Loss: 0.0304 - Error Loss: 0.0257 - KL Loss: -47.3306 - 0m 36s
+Accuracy@1: 0.416988416988417
+Accuracy@5: 0.46546546546546547
+Accuracy@10: 0.4851994851994852
+MRR: 0.44201899716878856
+Accuracy@1-DTW: 0.30416130416130416
+Accuracy@5-DTW: 0.37923637923637926
+Accuracy@10-DTW: 0.42513942513942515
+MRR-DTW: 0.34557463201102906
+Epoch: 201/500 - Loss: 0.0303 - Error Loss: 0.0255 - KL Loss: -47.8147 - 0m 36s
+Epoch: 202/500 - Loss: 0.0304 - Error Loss: 0.0256 - KL Loss: -47.8419 - 0m 36s
+Epoch: 203/500 - Loss: 0.0304 - Error Loss: 0.0256 - KL Loss: -47.8458 - 0m 36s
+Epoch: 204/500 - Loss: 0.0304 - Error Loss: 0.0256 - KL Loss: -47.7928 - 0m 36s
+Epoch: 205/500 - Loss: 0.0303 - Error Loss: 0.0255 - KL Loss: -47.8260 - 0m 36s
+Epoch: 206/500 - Loss: 0.0304 - Error Loss: 0.0256 - KL Loss: -47.7737 - 0m 36s
+Epoch: 207/500 - Loss: 0.0304 - Error Loss: 0.0256 - KL Loss: -47.8205 - 0m 36s
+Epoch: 208/500 - Loss: 0.0303 - Error Loss: 0.0256 - KL Loss: -47.8232 - 0m 36s
+Epoch: 209/500 - Loss: 0.0302 - Error Loss: 0.0254 - KL Loss: -47.8021 - 0m 36s
+Epoch: 210/500 - Loss: 0.0302 - Error Loss: 0.0254 - KL Loss: -47.9865 - 0m 36s
+Epoch: 211/500 - Loss: 0.0303 - Error Loss: 0.0255 - KL Loss: -47.9252 - 0m 36s
+Epoch: 212/500 - Loss: 0.0303 - Error Loss: 0.0255 - KL Loss: -47.9570 - 0m 36s
+Epoch: 213/500 - Loss: 0.0302 - Error Loss: 0.0254 - KL Loss: -47.8859 - 0m 35s
+Epoch: 214/500 - Loss: 0.0302 - Error Loss: 0.0254 - KL Loss: -47.9655 - 0m 35s
+Epoch: 215/500 - Loss: 0.0302 - Error Loss: 0.0254 - KL Loss: -48.0611 - 0m 36s
+Epoch: 216/500 - Loss: 0.0302 - Error Loss: 0.0254 - KL Loss: -48.0338 - 0m 36s
+Epoch: 217/500 - Loss: 0.0302 - Error Loss: 0.0254 - KL Loss: -48.0948 - 0m 36s
+Epoch: 218/500 - Loss: 0.0302 - Error Loss: 0.0254 - KL Loss: -48.1081 - 0m 36s
+Epoch: 219/500 - Loss: 0.0302 - Error Loss: 0.0254 - KL Loss: -48.0172 - 0m 36s
+Epoch: 220/500 - Loss: 0.0301 - Error Loss: 0.0253 - KL Loss: -48.1310 - 0m 35s
+Epoch: 221/500 - Loss: 0.0301 - Error Loss: 0.0253 - KL Loss: -48.1625 - 0m 36s
+Epoch: 222/500 - Loss: 0.0303 - Error Loss: 0.0255 - KL Loss: -48.1781 - 0m 36s
+Epoch: 223/500 - Loss: 0.0302 - Error Loss: 0.0254 - KL Loss: -48.0840 - 0m 35s
+Epoch: 224/500 - Loss: 0.0301 - Error Loss: 0.0252 - KL Loss: -48.2110 - 0m 36s
+Epoch: 225/500 - Loss: 0.0301 - Error Loss: 0.0253 - KL Loss: -48.1991 - 0m 36s
+Epoch: 226/500 - Loss: 0.0300 - Error Loss: 0.0252 - KL Loss: -48.2621 - 0m 35s
+Epoch: 227/500 - Loss: 0.0301 - Error Loss: 0.0252 - KL Loss: -48.3482 - 0m 35s
+Epoch: 228/500 - Loss: 0.0302 - Error Loss: 0.0253 - KL Loss: -48.4162 - 0m 35s
+Epoch: 229/500 - Loss: 0.0301 - Error Loss: 0.0253 - KL Loss: -48.3654 - 0m 35s
+Epoch: 230/500 - Loss: 0.0301 - Error Loss: 0.0252 - KL Loss: -48.5196 - 0m 35s
+Epoch: 231/500 - Loss: 0.0301 - Error Loss: 0.0253 - KL Loss: -48.3559 - 0m 35s
+Epoch: 232/500 - Loss: 0.0301 - Error Loss: 0.0253 - KL Loss: -48.3170 - 0m 35s
+Epoch: 233/500 - Loss: 0.0301 - Error Loss: 0.0253 - KL Loss: -48.4721 - 0m 35s
+Epoch: 234/500 - Loss: 0.0301 - Error Loss: 0.0253 - KL Loss: -48.4680 - 0m 35s
+Epoch: 235/500 - Loss: 0.0302 - Error Loss: 0.0254 - KL Loss: -48.1967 - 0m 36s
+Epoch: 236/500 - Loss: 0.0301 - Error Loss: 0.0253 - KL Loss: -48.4487 - 0m 35s
+Epoch: 237/500 - Loss: 0.0301 - Error Loss: 0.0252 - KL Loss: -48.3969 - 0m 35s
+Epoch: 238/500 - Loss: 0.0300 - Error Loss: 0.0251 - KL Loss: -48.4953 - 0m 36s
+Epoch: 239/500 - Loss: 0.0300 - Error Loss: 0.0252 - KL Loss: -48.5993 - 0m 36s
+Epoch: 240/500 - Loss: 0.0299 - Error Loss: 0.0250 - KL Loss: -48.6365 - 0m 36s
+Epoch: 241/500 - Loss: 0.0300 - Error Loss: 0.0251 - KL Loss: -48.5736 - 0m 36s
+Epoch: 242/500 - Loss: 0.0300 - Error Loss: 0.0251 - KL Loss: -48.6325 - 0m 36s
+Epoch: 243/500 - Loss: 0.0300 - Error Loss: 0.0251 - KL Loss: -48.5291 - 0m 36s
+Epoch: 244/500 - Loss: 0.0301 - Error Loss: 0.0253 - KL Loss: -48.5776 - 0m 36s
+Epoch: 245/500 - Loss: 0.0300 - Error Loss: 0.0252 - KL Loss: -48.5436 - 0m 36s
+Epoch: 246/500 - Loss: 0.0299 - Error Loss: 0.0250 - KL Loss: -48.7551 - 0m 36s
+Epoch: 247/500 - Loss: 0.0301 - Error Loss: 0.0253 - KL Loss: -48.6464 - 0m 36s
+Epoch: 248/500 - Loss: 0.0300 - Error Loss: 0.0251 - KL Loss: -48.6412 - 0m 36s
+Epoch: 249/500 - Loss: 0.0300 - Error Loss: 0.0251 - KL Loss: -48.6257 - 0m 36s
+Epoch: 250/500 - Loss: 0.0301 - Error Loss: 0.0253 - KL Loss: -48.8203 - 0m 36s
+Accuracy@1: 0.43586443586443585
+Accuracy@5: 0.4774774774774775
+Accuracy@10: 0.4972114972114972
+MRR: 0.4574666793697305
+Accuracy@1-DTW: 0.3213213213213213
+Accuracy@5-DTW: 0.39039039039039036
+Accuracy@10-DTW: 0.42342342342342343
+MRR-DTW: 0.35913673906192567
+Epoch: 251/500 - Loss: 0.0300 - Error Loss: 0.0251 - KL Loss: -48.7163 - 0m 36s
+Epoch: 252/500 - Loss: 0.0299 - Error Loss: 0.0250 - KL Loss: -48.7713 - 0m 36s
+Epoch: 253/500 - Loss: 0.0298 - Error Loss: 0.0249 - KL Loss: -48.9076 - 0m 36s
+Epoch: 254/500 - Loss: 0.0300 - Error Loss: 0.0251 - KL Loss: -48.7772 - 0m 36s
+Epoch: 255/500 - Loss: 0.0300 - Error Loss: 0.0251 - KL Loss: -48.9381 - 0m 36s
+Epoch: 256/500 - Loss: 0.0299 - Error Loss: 0.0251 - KL Loss: -48.7598 - 0m 36s
+Epoch: 257/500 - Loss: 0.0299 - Error Loss: 0.0250 - KL Loss: -48.8320 - 0m 36s
+Epoch: 258/500 - Loss: 0.0299 - Error Loss: 0.0250 - KL Loss: -48.8767 - 0m 36s
+Epoch: 259/500 - Loss: 0.0299 - Error Loss: 0.0250 - KL Loss: -48.8879 - 0m 36s
+Epoch: 260/500 - Loss: 0.0299 - Error Loss: 0.0250 - KL Loss: -48.7815 - 0m 36s
+Epoch: 261/500 - Loss: 0.0299 - Error Loss: 0.0250 - KL Loss: -49.0552 - 0m 36s
+Epoch: 262/500 - Loss: 0.0299 - Error Loss: 0.0250 - KL Loss: -48.8707 - 0m 36s
+Epoch: 263/500 - Loss: 0.0300 - Error Loss: 0.0251 - KL Loss: -48.8495 - 0m 36s
+Epoch: 264/500 - Loss: 0.0298 - Error Loss: 0.0249 - KL Loss: -48.9867 - 0m 36s
+Epoch: 265/500 - Loss: 0.0300 - Error Loss: 0.0251 - KL Loss: -48.8755 - 0m 37s
+Epoch: 266/500 - Loss: 0.0300 - Error Loss: 0.0251 - KL Loss: -49.1434 - 0m 37s
+Epoch: 267/500 - Loss: 0.0299 - Error Loss: 0.0249 - KL Loss: -49.1132 - 0m 36s
+Epoch: 268/500 - Loss: 0.0298 - Error Loss: 0.0249 - KL Loss: -49.1458 - 0m 36s
+Epoch: 269/500 - Loss: 0.0300 - Error Loss: 0.0251 - KL Loss: -48.9990 - 0m 36s
+Epoch: 270/500 - Loss: 0.0300 - Error Loss: 0.0250 - KL Loss: -49.1855 - 0m 37s
+Epoch: 271/500 - Loss: 0.0299 - Error Loss: 0.0250 - KL Loss: -48.9878 - 0m 37s
+Epoch: 272/500 - Loss: 0.0297 - Error Loss: 0.0248 - KL Loss: -49.2311 - 0m 36s
+Epoch: 273/500 - Loss: 0.0300 - Error Loss: 0.0251 - KL Loss: -48.9661 - 0m 36s
+Epoch: 274/500 - Loss: 0.0299 - Error Loss: 0.0249 - KL Loss: -49.1356 - 0m 36s
+Epoch: 275/500 - Loss: 0.0298 - Error Loss: 0.0249 - KL Loss: -49.2699 - 0m 36s
+Epoch: 276/500 - Loss: 0.0299 - Error Loss: 0.0249 - KL Loss: -49.2870 - 0m 36s
+Epoch: 277/500 - Loss: 0.0297 - Error Loss: 0.0248 - KL Loss: -49.1756 - 0m 36s
+Epoch: 278/500 - Loss: 0.0299 - Error Loss: 0.0250 - KL Loss: -49.1187 - 0m 36s
+Epoch: 279/500 - Loss: 0.0298 - Error Loss: 0.0248 - KL Loss: -49.3830 - 0m 36s
+Epoch: 280/500 - Loss: 0.0299 - Error Loss: 0.0249 - KL Loss: -49.4394 - 0m 36s
+Epoch: 281/500 - Loss: 0.0298 - Error Loss: 0.0249 - KL Loss: -49.2445 - 0m 36s
+Epoch: 282/500 - Loss: 0.0299 - Error Loss: 0.0250 - KL Loss: -49.3987 - 0m 36s
+Epoch: 283/500 - Loss: 0.0298 - Error Loss: 0.0248 - KL Loss: -49.3262 - 0m 36s
+Epoch: 284/500 - Loss: 0.0298 - Error Loss: 0.0248 - KL Loss: -49.3739 - 0m 36s
+Epoch: 285/500 - Loss: 0.0298 - Error Loss: 0.0248 - KL Loss: -49.4445 - 0m 36s
+Epoch: 286/500 - Loss: 0.0298 - Error Loss: 0.0249 - KL Loss: -49.4186 - 0m 36s
+Epoch: 287/500 - Loss: 0.0298 - Error Loss: 0.0248 - KL Loss: -49.3319 - 0m 36s
+Epoch: 288/500 - Loss: 0.0298 - Error Loss: 0.0249 - KL Loss: -49.3379 - 0m 36s
+Epoch: 289/500 - Loss: 0.0298 - Error Loss: 0.0249 - KL Loss: -49.5038 - 0m 36s
+Epoch: 290/500 - Loss: 0.0298 - Error Loss: 0.0248 - KL Loss: -49.4737 - 0m 36s
+Epoch: 291/500 - Loss: 0.0297 - Error Loss: 0.0248 - KL Loss: -49.4983 - 0m 36s
+Epoch: 292/500 - Loss: 0.0298 - Error Loss: 0.0249 - KL Loss: -49.5144 - 0m 36s
+Epoch: 293/500 - Loss: 0.0297 - Error Loss: 0.0248 - KL Loss: -49.4825 - 0m 36s
+Epoch: 294/500 - Loss: 0.0298 - Error Loss: 0.0249 - KL Loss: -49.4770 - 0m 36s
+Epoch: 295/500 - Loss: 0.0298 - Error Loss: 0.0248 - KL Loss: -49.4447 - 0m 36s
+Epoch: 296/500 - Loss: 0.0297 - Error Loss: 0.0248 - KL Loss: -49.5710 - 0m 36s
+Epoch: 297/500 - Loss: 0.0298 - Error Loss: 0.0248 - KL Loss: -49.8742 - 0m 36s
+Epoch: 298/500 - Loss: 0.0298 - Error Loss: 0.0248 - KL Loss: -49.5613 - 0m 36s
+Epoch: 299/500 - Loss: 0.0297 - Error Loss: 0.0248 - KL Loss: -49.6127 - 0m 36s
+Epoch: 300/500 - Loss: 0.0296 - Error Loss: 0.0246 - KL Loss: -49.8857 - 0m 36s
+Accuracy@1: 0.43114543114543114
+Accuracy@5: 0.47533247533247536
+Accuracy@10: 0.49034749034749037
+MRR: 0.45342304026654445
+Accuracy@1-DTW: 0.3135993135993136
+Accuracy@5-DTW: 0.3818103818103818
+Accuracy@10-DTW: 0.42256542256542257
+MRR-DTW: 0.3511095348494763
+Epoch: 301/500 - Loss: 0.0294 - Error Loss: 0.0244 - KL Loss: -50.0608 - 0m 36s
+Epoch: 302/500 - Loss: 0.0294 - Error Loss: 0.0243 - KL Loss: -50.0787 - 0m 36s
+Epoch: 303/500 - Loss: 0.0294 - Error Loss: 0.0243 - KL Loss: -50.1018 - 0m 36s
+Epoch: 304/500 - Loss: 0.0294 - Error Loss: 0.0244 - KL Loss: -50.1809 - 0m 36s
+Epoch: 305/500 - Loss: 0.0294 - Error Loss: 0.0244 - KL Loss: -50.0618 - 0m 36s
+Epoch: 306/500 - Loss: 0.0292 - Error Loss: 0.0242 - KL Loss: -50.2863 - 0m 36s
+Epoch: 307/500 - Loss: 0.0294 - Error Loss: 0.0243 - KL Loss: -50.3558 - 0m 35s
+Epoch: 308/500 - Loss: 0.0293 - Error Loss: 0.0242 - KL Loss: -50.2850 - 0m 36s
+Epoch: 309/500 - Loss: 0.0293 - Error Loss: 0.0243 - KL Loss: -50.2212 - 0m 35s
+Epoch: 310/500 - Loss: 0.0293 - Error Loss: 0.0242 - KL Loss: -50.3535 - 0m 35s
+Epoch: 311/500 - Loss: 0.0293 - Error Loss: 0.0243 - KL Loss: -50.2881 - 0m 35s
+Epoch: 312/500 - Loss: 0.0294 - Error Loss: 0.0244 - KL Loss: -50.1712 - 0m 35s
+Epoch: 313/500 - Loss: 0.0295 - Error Loss: 0.0244 - KL Loss: -50.4607 - 0m 35s
+Epoch: 314/500 - Loss: 0.0292 - Error Loss: 0.0242 - KL Loss: -50.4276 - 0m 35s
+Epoch: 315/500 - Loss: 0.0293 - Error Loss: 0.0243 - KL Loss: -50.3486 - 0m 35s
+Epoch: 316/500 - Loss: 0.0292 - Error Loss: 0.0242 - KL Loss: -50.4043 - 0m 35s
+Epoch: 317/500 - Loss: 0.0293 - Error Loss: 0.0242 - KL Loss: -50.3871 - 0m 35s
+Epoch: 318/500 - Loss: 0.0292 - Error Loss: 0.0242 - KL Loss: -50.4111 - 0m 35s
+Epoch: 319/500 - Loss: 0.0293 - Error Loss: 0.0242 - KL Loss: -50.3078 - 0m 35s
+Epoch: 320/500 - Loss: 0.0293 - Error Loss: 0.0243 - KL Loss: -50.2894 - 0m 35s
+Epoch: 321/500 - Loss: 0.0293 - Error Loss: 0.0242 - KL Loss: -50.4683 - 0m 35s
+Epoch: 322/500 - Loss: 0.0293 - Error Loss: 0.0242 - KL Loss: -50.4425 - 0m 35s
+Epoch: 323/500 - Loss: 0.0292 - Error Loss: 0.0242 - KL Loss: -50.3787 - 0m 35s
+Epoch: 324/500 - Loss: 0.0291 - Error Loss: 0.0241 - KL Loss: -50.5130 - 0m 36s
+Epoch: 325/500 - Loss: 0.0293 - Error Loss: 0.0242 - KL Loss: -50.3780 - 0m 35s
+Epoch: 326/500 - Loss: 0.0293 - Error Loss: 0.0242 - KL Loss: -50.3881 - 0m 35s
+Epoch: 327/500 - Loss: 0.0292 - Error Loss: 0.0241 - KL Loss: -50.5994 - 0m 35s
+Epoch: 328/500 - Loss: 0.0293 - Error Loss: 0.0242 - KL Loss: -50.4785 - 0m 35s
+Epoch: 329/500 - Loss: 0.0292 - Error Loss: 0.0242 - KL Loss: -50.4718 - 0m 35s
+Epoch: 330/500 - Loss: 0.0292 - Error Loss: 0.0242 - KL Loss: -50.4384 - 0m 35s
+Epoch: 331/500 - Loss: 0.0292 - Error Loss: 0.0241 - KL Loss: -50.4884 - 0m 35s
+Epoch: 332/500 - Loss: 0.0292 - Error Loss: 0.0241 - KL Loss: -50.4369 - 0m 35s
+Epoch: 333/500 - Loss: 0.0292 - Error Loss: 0.0241 - KL Loss: -50.5298 - 0m 35s
+Epoch: 334/500 - Loss: 0.0293 - Error Loss: 0.0243 - KL Loss: -50.5407 - 0m 35s
+Epoch: 335/500 - Loss: 0.0292 - Error Loss: 0.0242 - KL Loss: -50.3335 - 0m 35s
+Epoch: 336/500 - Loss: 0.0291 - Error Loss: 0.0241 - KL Loss: -50.6494 - 0m 35s
+Epoch: 337/500 - Loss: 0.0292 - Error Loss: 0.0242 - KL Loss: -50.5499 - 0m 36s
+Epoch: 338/500 - Loss: 0.0291 - Error Loss: 0.0241 - KL Loss: -50.6942 - 0m 36s
+Epoch: 339/500 - Loss: 0.0291 - Error Loss: 0.0240 - KL Loss: -50.6466 - 0m 35s
+Epoch: 340/500 - Loss: 0.0293 - Error Loss: 0.0242 - KL Loss: -50.5371 - 0m 35s
+Epoch: 341/500 - Loss: 0.0291 - Error Loss: 0.0241 - KL Loss: -50.5027 - 0m 35s
+Epoch: 342/500 - Loss: 0.0292 - Error Loss: 0.0241 - KL Loss: -50.6384 - 0m 35s
+Epoch: 343/500 - Loss: 0.0292 - Error Loss: 0.0241 - KL Loss: -50.7739 - 0m 35s
+Epoch: 344/500 - Loss: 0.0292 - Error Loss: 0.0241 - KL Loss: -50.7291 - 0m 35s
+Epoch: 345/500 - Loss: 0.0291 - Error Loss: 0.0241 - KL Loss: -50.6307 - 0m 35s
+Epoch: 346/500 - Loss: 0.0291 - Error Loss: 0.0240 - KL Loss: -50.7254 - 0m 35s
+Epoch: 347/500 - Loss: 0.0291 - Error Loss: 0.0241 - KL Loss: -50.6867 - 0m 35s
+Epoch: 348/500 - Loss: 0.0291 - Error Loss: 0.0240 - KL Loss: -50.7431 - 0m 35s
+Epoch: 349/500 - Loss: 0.0291 - Error Loss: 0.0240 - KL Loss: -50.7917 - 0m 35s
+Epoch: 350/500 - Loss: 0.0292 - Error Loss: 0.0241 - KL Loss: -50.8106 - 0m 35s
+Accuracy@1: 0.42299442299442297
+Accuracy@5: 0.46374946374946374
+Accuracy@10: 0.4796224796224796
+MRR: 0.4431971134077708
+Accuracy@1-DTW: 0.30115830115830117
+Accuracy@5-DTW: 0.3745173745173745
+Accuracy@10-DTW: 0.4174174174174174
+MRR-DTW: 0.3427018694890306
+Epoch: 351/500 - Loss: 0.0291 - Error Loss: 0.0240 - KL Loss: -50.7690 - 0m 36s
+Epoch: 352/500 - Loss: 0.0291 - Error Loss: 0.0240 - KL Loss: -50.9197 - 0m 35s
+Epoch: 353/500 - Loss: 0.0291 - Error Loss: 0.0241 - KL Loss: -50.8084 - 0m 35s
+Epoch: 354/500 - Loss: 0.0292 - Error Loss: 0.0241 - KL Loss: -50.8322 - 0m 35s
+Epoch: 355/500 - Loss: 0.0292 - Error Loss: 0.0241 - KL Loss: -50.9029 - 0m 35s
+Epoch: 356/500 - Loss: 0.0291 - Error Loss: 0.0240 - KL Loss: -51.0136 - 0m 35s
+Epoch: 357/500 - Loss: 0.0291 - Error Loss: 0.0240 - KL Loss: -50.9450 - 0m 35s
+Epoch: 358/500 - Loss: 0.0291 - Error Loss: 0.0240 - KL Loss: -50.9325 - 0m 35s
+Epoch: 359/500 - Loss: 0.0292 - Error Loss: 0.0241 - KL Loss: -50.8988 - 0m 35s
+Epoch: 360/500 - Loss: 0.0291 - Error Loss: 0.0240 - KL Loss: -50.9772 - 0m 35s
+Epoch: 361/500 - Loss: 0.0290 - Error Loss: 0.0239 - KL Loss: -50.9634 - 0m 35s
+Epoch: 362/500 - Loss: 0.0291 - Error Loss: 0.0240 - KL Loss: -50.9472 - 0m 36s
+Epoch: 363/500 - Loss: 0.0291 - Error Loss: 0.0240 - KL Loss: -50.9817 - 0m 35s
+Epoch: 364/500 - Loss: 0.0291 - Error Loss: 0.0240 - KL Loss: -50.9561 - 0m 35s
+Epoch: 365/500 - Loss: 0.0291 - Error Loss: 0.0240 - KL Loss: -50.9585 - 0m 35s
+Epoch: 366/500 - Loss: 0.0290 - Error Loss: 0.0239 - KL Loss: -51.0989 - 0m 35s
+Epoch: 367/500 - Loss: 0.0292 - Error Loss: 0.0241 - KL Loss: -50.9372 - 0m 36s
+Epoch: 368/500 - Loss: 0.0291 - Error Loss: 0.0240 - KL Loss: -50.8810 - 0m 36s
+Epoch: 369/500 - Loss: 0.0290 - Error Loss: 0.0239 - KL Loss: -51.0169 - 0m 36s
+Epoch: 370/500 - Loss: 0.0291 - Error Loss: 0.0240 - KL Loss: -51.0411 - 0m 36s
+Epoch: 371/500 - Loss: 0.0290 - Error Loss: 0.0239 - KL Loss: -51.1132 - 0m 35s
+Epoch: 372/500 - Loss: 0.0292 - Error Loss: 0.0241 - KL Loss: -51.0162 - 0m 36s
+Epoch: 373/500 - Loss: 0.0291 - Error Loss: 0.0240 - KL Loss: -51.0261 - 0m 36s
+Epoch: 374/500 - Loss: 0.0291 - Error Loss: 0.0240 - KL Loss: -50.9910 - 0m 35s
+Epoch: 375/500 - Loss: 0.0290 - Error Loss: 0.0239 - KL Loss: -51.1120 - 0m 35s
+Epoch: 376/500 - Loss: 0.0290 - Error Loss: 0.0239 - KL Loss: -51.1537 - 0m 36s
+Epoch: 377/500 - Loss: 0.0291 - Error Loss: 0.0240 - KL Loss: -50.9985 - 0m 36s
+Epoch: 378/500 - Loss: 0.0290 - Error Loss: 0.0239 - KL Loss: -51.2109 - 0m 35s
+Epoch: 379/500 - Loss: 0.0290 - Error Loss: 0.0239 - KL Loss: -51.1763 - 0m 36s
+Epoch: 380/500 - Loss: 0.0290 - Error Loss: 0.0239 - KL Loss: -51.2286 - 0m 35s
+Epoch: 381/500 - Loss: 0.0289 - Error Loss: 0.0238 - KL Loss: -51.2515 - 0m 36s
+Epoch: 382/500 - Loss: 0.0290 - Error Loss: 0.0239 - KL Loss: -51.1955 - 0m 36s
+Epoch: 383/500 - Loss: 0.0290 - Error Loss: 0.0239 - KL Loss: -51.1940 - 0m 36s
+Epoch: 384/500 - Loss: 0.0290 - Error Loss: 0.0239 - KL Loss: -51.2368 - 0m 35s
+Epoch: 385/500 - Loss: 0.0290 - Error Loss: 0.0238 - KL Loss: -51.2451 - 0m 36s
+Epoch: 386/500 - Loss: 0.0290 - Error Loss: 0.0238 - KL Loss: -51.3177 - 0m 36s
+Epoch: 387/500 - Loss: 0.0290 - Error Loss: 0.0239 - KL Loss: -51.2096 - 0m 36s
+Epoch: 388/500 - Loss: 0.0291 - Error Loss: 0.0240 - KL Loss: -51.1693 - 0m 36s
+Epoch: 389/500 - Loss: 0.0290 - Error Loss: 0.0238 - KL Loss: -51.2173 - 0m 35s
+Epoch: 390/500 - Loss: 0.0290 - Error Loss: 0.0238 - KL Loss: -51.3151 - 0m 35s
+Epoch: 391/500 - Loss: 0.0289 - Error Loss: 0.0238 - KL Loss: -51.4149 - 0m 36s
+Epoch: 392/500 - Loss: 0.0289 - Error Loss: 0.0237 - KL Loss: -51.3827 - 0m 35s
+Epoch: 393/500 - Loss: 0.0289 - Error Loss: 0.0238 - KL Loss: -51.4208 - 0m 35s
+Epoch: 394/500 - Loss: 0.0291 - Error Loss: 0.0239 - KL Loss: -51.3813 - 0m 36s
+Epoch: 395/500 - Loss: 0.0290 - Error Loss: 0.0239 - KL Loss: -51.2162 - 0m 35s
+Epoch: 396/500 - Loss: 0.0290 - Error Loss: 0.0238 - KL Loss: -51.3599 - 0m 35s
+Epoch: 397/500 - Loss: 0.0290 - Error Loss: 0.0239 - KL Loss: -51.3056 - 0m 35s
+Epoch: 398/500 - Loss: 0.0290 - Error Loss: 0.0238 - KL Loss: -51.2121 - 0m 35s
+Epoch: 399/500 - Loss: 0.0290 - Error Loss: 0.0238 - KL Loss: -51.2756 - 0m 36s
+Epoch: 400/500 - Loss: 0.0288 - Error Loss: 0.0237 - KL Loss: -51.4086 - 0m 35s
+Accuracy@1: 0.4247104247104247
+Accuracy@5: 0.47147147147147145
+Accuracy@10: 0.4877734877734878
+MRR: 0.4465072076047715
+Accuracy@1-DTW: 0.29944229944229944
+Accuracy@5-DTW: 0.3745173745173745
+Accuracy@10-DTW: 0.4165594165594166
+MRR-DTW: 0.33957528192900316
+Epoch: 401/500 - Loss: 0.0287 - Error Loss: 0.0236 - KL Loss: -51.5905 - 0m 36s
+Epoch: 402/500 - Loss: 0.0288 - Error Loss: 0.0237 - KL Loss: -51.5181 - 0m 36s
+Epoch: 403/500 - Loss: 0.0288 - Error Loss: 0.0236 - KL Loss: -51.5634 - 0m 36s
+Epoch: 404/500 - Loss: 0.0288 - Error Loss: 0.0236 - KL Loss: -51.5287 - 0m 36s
+Epoch: 405/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.6555 - 0m 36s
+Epoch: 406/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.7165 - 0m 35s
+Epoch: 407/500 - Loss: 0.0288 - Error Loss: 0.0236 - KL Loss: -51.6678 - 0m 35s
+Epoch: 408/500 - Loss: 0.0287 - Error Loss: 0.0236 - KL Loss: -51.6779 - 0m 35s
+Epoch: 409/500 - Loss: 0.0287 - Error Loss: 0.0236 - KL Loss: -51.7513 - 0m 36s
+Epoch: 410/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.7213 - 0m 35s
+Epoch: 411/500 - Loss: 0.0288 - Error Loss: 0.0236 - KL Loss: -51.6913 - 0m 35s
+Epoch: 412/500 - Loss: 0.0288 - Error Loss: 0.0236 - KL Loss: -51.6058 - 0m 36s
+Epoch: 413/500 - Loss: 0.0288 - Error Loss: 0.0236 - KL Loss: -51.6599 - 0m 36s
+Epoch: 414/500 - Loss: 0.0288 - Error Loss: 0.0236 - KL Loss: -51.6298 - 0m 35s
+Epoch: 415/500 - Loss: 0.0287 - Error Loss: 0.0236 - KL Loss: -51.6886 - 0m 36s
+Epoch: 416/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.6530 - 0m 35s
+Epoch: 417/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.7425 - 0m 36s
+Epoch: 418/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.7061 - 0m 36s
+Epoch: 419/500 - Loss: 0.0288 - Error Loss: 0.0236 - KL Loss: -51.6733 - 0m 36s
+Epoch: 420/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.8026 - 0m 35s
+Epoch: 421/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.9151 - 0m 35s
+Epoch: 422/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.7898 - 0m 36s
+Epoch: 423/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.8322 - 0m 36s
+Epoch: 424/500 - Loss: 0.0287 - Error Loss: 0.0236 - KL Loss: -51.8194 - 0m 36s
+Epoch: 425/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.7369 - 0m 36s
+Epoch: 426/500 - Loss: 0.0288 - Error Loss: 0.0236 - KL Loss: -51.7936 - 0m 35s
+Epoch: 427/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.8048 - 0m 36s
+Epoch: 428/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.7813 - 0m 36s
+Epoch: 429/500 - Loss: 0.0288 - Error Loss: 0.0236 - KL Loss: -51.7821 - 0m 36s
+Epoch: 430/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.7905 - 0m 36s
+Epoch: 431/500 - Loss: 0.0287 - Error Loss: 0.0236 - KL Loss: -51.7859 - 0m 36s
+Epoch: 432/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.7832 - 0m 36s
+Epoch: 433/500 - Loss: 0.0286 - Error Loss: 0.0235 - KL Loss: -51.8805 - 0m 36s
+Epoch: 434/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.8605 - 0m 36s
+Epoch: 435/500 - Loss: 0.0288 - Error Loss: 0.0236 - KL Loss: -51.8360 - 0m 36s
+Epoch: 436/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -51.9233 - 0m 36s
+Epoch: 437/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.8844 - 0m 35s
+Epoch: 438/500 - Loss: 0.0286 - Error Loss: 0.0235 - KL Loss: -51.9037 - 0m 36s
+Epoch: 439/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.8759 - 0m 35s
+Epoch: 440/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.9588 - 0m 36s
+Epoch: 441/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.7929 - 0m 36s
+Epoch: 442/500 - Loss: 0.0286 - Error Loss: 0.0235 - KL Loss: -51.8146 - 0m 36s
+Epoch: 443/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -51.8946 - 0m 35s
+Epoch: 444/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -51.8852 - 0m 36s
+Epoch: 445/500 - Loss: 0.0286 - Error Loss: 0.0235 - KL Loss: -51.8679 - 0m 36s
+Epoch: 446/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.9318 - 0m 36s
+Epoch: 447/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.9869 - 0m 36s
+Epoch: 448/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -51.8702 - 0m 36s
+Epoch: 449/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.9671 - 0m 35s
+Epoch: 450/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.8469 - 0m 36s
+Accuracy@1: 0.42814242814242814
+Accuracy@5: 0.4706134706134706
+Accuracy@10: 0.48605748605748605
+MRR: 0.45009970274093863
+Accuracy@1-DTW: 0.3028743028743029
+Accuracy@5-DTW: 0.36765336765336765
+Accuracy@10-DTW: 0.4071214071214071
+MRR-DTW: 0.3412631148327035
+Epoch: 451/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -51.8244 - 0m 35s
+Epoch: 452/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.9068 - 0m 36s
+Epoch: 453/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -51.9638 - 0m 35s
+Epoch: 454/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.8941 - 0m 35s
+Epoch: 455/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.7622 - 0m 35s
+Epoch: 456/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.8967 - 0m 35s
+Epoch: 457/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.8656 - 0m 36s
+Epoch: 458/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.8489 - 0m 35s
+Epoch: 459/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -51.8224 - 0m 35s
+Epoch: 460/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -51.8538 - 0m 35s
+Epoch: 461/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -52.0215 - 0m 35s
+Epoch: 462/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -52.0495 - 0m 36s
+Epoch: 463/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -51.9945 - 0m 36s
+Epoch: 464/500 - Loss: 0.0286 - Error Loss: 0.0235 - KL Loss: -51.9134 - 0m 35s
+Epoch: 465/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -52.0402 - 0m 35s
+Epoch: 466/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -52.0425 - 0m 35s
+Epoch: 467/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.9981 - 0m 36s
+Epoch: 468/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -52.0680 - 0m 35s
+Epoch: 469/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -51.9620 - 0m 35s
+Epoch: 470/500 - Loss: 0.0288 - Error Loss: 0.0236 - KL Loss: -51.9842 - 0m 35s
+Epoch: 471/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -51.9628 - 0m 36s
+Epoch: 472/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -52.0497 - 0m 36s
+Epoch: 473/500 - Loss: 0.0285 - Error Loss: 0.0233 - KL Loss: -52.1148 - 0m 36s
+Epoch: 474/500 - Loss: 0.0285 - Error Loss: 0.0233 - KL Loss: -52.1080 - 0m 35s
+Epoch: 475/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -51.9894 - 0m 36s
+Epoch: 476/500 - Loss: 0.0285 - Error Loss: 0.0233 - KL Loss: -52.1007 - 0m 36s
+Epoch: 477/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -52.0699 - 0m 35s
+Epoch: 478/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.9909 - 0m 35s
+Epoch: 479/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.9877 - 0m 35s
+Epoch: 480/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -52.0300 - 0m 36s
+Epoch: 481/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -52.1737 - 0m 35s
+Epoch: 482/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -52.0235 - 0m 35s
+Epoch: 483/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -52.0046 - 0m 35s
+Epoch: 484/500 - Loss: 0.0287 - Error Loss: 0.0235 - KL Loss: -51.9990 - 0m 35s
+Epoch: 485/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -51.9651 - 0m 36s
+Epoch: 486/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -52.0343 - 0m 36s
+Epoch: 487/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -52.0824 - 0m 36s
+Epoch: 488/500 - Loss: 0.0285 - Error Loss: 0.0233 - KL Loss: -52.0230 - 0m 36s
+Epoch: 489/500 - Loss: 0.0285 - Error Loss: 0.0233 - KL Loss: -52.0624 - 0m 36s
+Epoch: 490/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -51.9988 - 0m 36s
+Epoch: 491/500 - Loss: 0.0285 - Error Loss: 0.0233 - KL Loss: -52.1357 - 0m 36s
+Epoch: 492/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -52.1327 - 0m 36s
+Epoch: 493/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -52.1133 - 0m 36s
+Epoch: 494/500 - Loss: 0.0286 - Error Loss: 0.0233 - KL Loss: -52.2165 - 0m 35s
+Epoch: 495/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -52.0251 - 0m 36s
+Epoch: 496/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -52.1650 - 0m 35s
+Epoch: 497/500 - Loss: 0.0285 - Error Loss: 0.0233 - KL Loss: -52.1190 - 0m 36s
+Epoch: 498/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -52.0460 - 0m 35s
+Epoch: 499/500 - Loss: 0.0286 - Error Loss: 0.0234 - KL Loss: -52.1161 - 0m 35s
+Tempo total de treinamento: 26209.526694774628

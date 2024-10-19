@@ -4,3 +4,66 @@ Accuracy@5: 0.08794508794508794
 Accuracy@10: 0.12526812526812528
 MRR: 0.07216392883716004
 epoch: 1/500 - loss G: 10.2672 - loss encoder: 25.5346 - loss discrimination: 0.7020 - loss similarity: 0.0575 - margin: 0.10 - 1m 13s
+epoch: 2/500 - loss G: 18.3795 - loss encoder: 45.5938 - loss discrimination: 1.1693 - loss similarity: 0.0460 - margin: 0.10 - 1m 13s
+epoch: 3/500 - loss G: 13.5196 - loss encoder: 44.2338 - loss discrimination: 0.7813 - loss similarity: 0.0365 - margin: 0.10 - 1m 13s
+epoch: 4/500 - loss G: 13.7898 - loss encoder: 43.2577 - loss discrimination: 1.0028 - loss similarity: 0.0300 - margin: 0.10 - 1m 13s
+epoch: 5/500 - loss G: 15.6696 - loss encoder: 47.3330 - loss discrimination: 0.5821 - loss similarity: 0.0240 - margin: 0.10 - 1m 14s
+epoch: 6/500 - loss G: 12.2938 - loss encoder: 39.2287 - loss discrimination: 0.5523 - loss similarity: 0.0176 - margin: 0.10 - 1m 14s
+epoch: 7/500 - loss G: 12.4682 - loss encoder: 42.1736 - loss discrimination: 0.6891 - loss similarity: 0.0310 - margin: 0.10 - 1m 14s
+epoch: 8/500 - loss G: 10.9948 - loss encoder: 37.5121 - loss discrimination: 0.6096 - loss similarity: 0.0156 - margin: 0.10 - 1m 14s
+epoch: 9/500 - loss G: 10.1426 - loss encoder: 27.0324 - loss discrimination: 0.5393 - loss similarity: 0.0137 - margin: 0.10 - 1m 14s
+epoch: 10/500 - loss G: 8.3837 - loss encoder: 19.2773 - loss discrimination: 0.5071 - loss similarity: 0.0194 - margin: 0.10 - 1m 14s
+epoch: 0/500 - loss G: 8.3139 - loss encoder: 33.7372 - loss discrimination: 1.0063 - loss similarity: 0.0654 - margin: 0.10 - 1m 6s
+epoch: 11/500 - loss G: 7.7647 - loss encoder: 17.5112 - loss discrimination: 0.5066 - loss similarity: 0.0168 - margin: 0.10 - 1m 15s
+epoch: 12/500 - loss G: 7.6343 - loss encoder: 16.7162 - loss discrimination: 0.3546 - loss similarity: 0.0134 - margin: 0.10 - 1m 15s
+epoch: 13/500 - loss G: 8.5756 - loss encoder: 21.3231 - loss discrimination: 0.2561 - loss similarity: 0.0122 - margin: 0.10 - 1m 14s
+epoch: 14/500 - loss G: 8.0049 - loss encoder: 17.2596 - loss discrimination: 0.4800 - loss similarity: 0.0141 - margin: 0.10 - 1m 14s
+epoch: 15/500 - loss G: 9.1129 - loss encoder: 20.1173 - loss discrimination: 0.6405 - loss similarity: 0.0128 - margin: 0.10 - 1m 14s
+epoch: 0/500 - loss G: 8.3139 - loss encoder: 33.7372 - loss discrimination: 1.0063 - loss similarity: 0.0654 - margin: 0.10 - 1m 7s
+epoch: 16/500 - loss G: 8.9869 - loss encoder: 23.8164 - loss discrimination: 0.5391 - loss similarity: 0.0060 - margin: 0.10 - 1m 14s
+epoch: 17/500 - loss G: 8.7284 - loss encoder: 12.3885 - loss discrimination: 0.3743 - loss similarity: 0.0086 - margin: 0.10 - 1m 14s
+epoch: 18/500 - loss G: 8.4331 - loss encoder: 14.8313 - loss discrimination: 0.2544 - loss similarity: 0.0274 - margin: 0.10 - 1m 14s
+epoch: 19/500 - loss G: 4.7637 - loss encoder: 5.8537 - loss discrimination: 0.3131 - loss similarity: 0.0373 - margin: 0.10 - 1m 14s
+epoch: 20/500 - loss G: 5.5085 - loss encoder: 10.9056 - loss discrimination: 0.4623 - loss similarity: 0.0119 - margin: 0.10 - 1m 14s
+epoch: 21/500 - loss G: 7.7054 - loss encoder: 15.1145 - loss discrimination: 0.7855 - loss similarity: 0.0041 - margin: 0.10 - 1m 14s
+epoch: 22/500 - loss G: 5.6165 - loss encoder: 10.0322 - loss discrimination: 0.8621 - loss similarity: 0.0337 - margin: 0.10 - 1m 15s
+epoch: 23/500 - loss G: 3.7452 - loss encoder: 4.0385 - loss discrimination: 0.4704 - loss similarity: 0.0089 - margin: 0.10 - 1m 14s
+epoch: 24/500 - loss G: 5.6114 - loss encoder: 5.8121 - loss discrimination: 0.4483 - loss similarity: 0.0213 - margin: 0.10 - 1m 14s
+epoch: 25/500 - loss G: 4.2893 - loss encoder: 4.0619 - loss discrimination: 0.4294 - loss similarity: 0.0109 - margin: 0.10 - 1m 14s
+epoch: 26/500 - loss G: 5.8921 - loss encoder: 6.7759 - loss discrimination: 0.3730 - loss similarity: 0.0055 - margin: 0.10 - 1m 14s
+epoch: 27/500 - loss G: 6.2836 - loss encoder: 6.1676 - loss discrimination: 0.2853 - loss similarity: 0.0067 - margin: 0.10 - 1m 13s
+epoch: 28/500 - loss G: 3.4721 - loss encoder: 3.7041 - loss discrimination: 0.5375 - loss similarity: 0.0147 - margin: 0.10 - 1m 14s
+epoch: 29/500 - loss G: 5.1529 - loss encoder: 8.0659 - loss discrimination: 0.6185 - loss similarity: 0.0110 - margin: 0.10 - 1m 13s
+epoch: 30/500 - loss G: 4.7055 - loss encoder: 5.4053 - loss discrimination: 0.3579 - loss similarity: 0.0173 - margin: 0.10 - 1m 13s
+epoch: 31/500 - loss G: 3.9011 - loss encoder: 4.9589 - loss discrimination: 0.3846 - loss similarity: 0.0220 - margin: 0.10 - 1m 14s
+epoch: 32/500 - loss G: 4.2936 - loss encoder: 7.5678 - loss discrimination: 0.4182 - loss similarity: 0.0103 - margin: 0.10 - 1m 14s
+epoch: 33/500 - loss G: 4.4177 - loss encoder: 6.4277 - loss discrimination: 0.6052 - loss similarity: 0.0134 - margin: 0.10 - 1m 14s
+epoch: 34/500 - loss G: 6.2724 - loss encoder: 11.5111 - loss discrimination: 0.5856 - loss similarity: 0.0068 - margin: 0.10 - 1m 14s
+epoch: 35/500 - loss G: 4.2101 - loss encoder: 4.3577 - loss discrimination: 0.4829 - loss similarity: 0.0059 - margin: 0.10 - 1m 14s
+epoch: 36/500 - loss G: 3.9979 - loss encoder: 4.1073 - loss discrimination: 0.4313 - loss similarity: 0.0086 - margin: 0.10 - 1m 13s
+epoch: 37/500 - loss G: 3.0570 - loss encoder: 3.3037 - loss discrimination: 0.4840 - loss similarity: 0.0118 - margin: 0.10 - 1m 14s
+epoch: 38/500 - loss G: 4.6517 - loss encoder: 6.2428 - loss discrimination: 0.7735 - loss similarity: 0.0253 - margin: 0.10 - 1m 12s
+epoch: 39/500 - loss G: 5.0515 - loss encoder: 5.9717 - loss discrimination: 0.5593 - loss similarity: 0.0142 - margin: 0.10 - 1m 13s
+epoch: 40/500 - loss G: 3.6721 - loss encoder: 6.9086 - loss discrimination: 0.5095 - loss similarity: 0.0297 - margin: 0.10 - 1m 13s
+epoch: 41/500 - loss G: 4.1456 - loss encoder: 4.4486 - loss discrimination: 0.4040 - loss similarity: 0.0158 - margin: 0.10 - 1m 12s
+epoch: 42/500 - loss G: 4.2049 - loss encoder: 4.6046 - loss discrimination: 0.4246 - loss similarity: 0.0110 - margin: 0.10 - 1m 11s
+epoch: 43/500 - loss G: 3.4561 - loss encoder: 3.8859 - loss discrimination: 0.4606 - loss similarity: 0.0077 - margin: 0.10 - 1m 12s
+epoch: 44/500 - loss G: 3.7653 - loss encoder: 5.5390 - loss discrimination: 1.0628 - loss similarity: 0.0078 - margin: 0.10 - 1m 12s
+epoch: 45/500 - loss G: 6.1045 - loss encoder: 10.5044 - loss discrimination: 0.8589 - loss similarity: 0.0034 - margin: 0.10 - 1m 12s
+epoch: 46/500 - loss G: 3.9069 - loss encoder: 4.8034 - loss discrimination: 0.5130 - loss similarity: 0.0087 - margin: 0.10 - 1m 13s
+epoch: 47/500 - loss G: 3.6003 - loss encoder: 3.8164 - loss discrimination: 0.4114 - loss similarity: 0.0061 - margin: 0.10 - 1m 12s
+epoch: 48/500 - loss G: 2.9049 - loss encoder: 3.3872 - loss discrimination: 0.5867 - loss similarity: 0.0110 - margin: 0.10 - 1m 13s
+epoch: 49/500 - loss G: 3.0881 - loss encoder: 4.0554 - loss discrimination: 0.6779 - loss similarity: 0.0137 - margin: 0.10 - 1m 13s
+epoch: 50/500 - loss G: 3.0276 - loss encoder: 3.1860 - loss discrimination: 0.6715 - loss similarity: 0.0093 - margin: 0.10 - 1m 13s
+Accuracy@1: 0.17631917631917632
+Accuracy@5: 0.32646932646932647
+Accuracy@10: 0.401973401973402
+MRR: 0.2565160312965688
+epoch: 51/500 - loss G: 2.3589 - loss encoder: 2.6731 - loss discrimination: 0.5178 - loss similarity: 0.0178 - margin: 0.10 - 1m 13s
+epoch: 52/500 - loss G: 2.7021 - loss encoder: 3.0020 - loss discrimination: 0.4989 - loss similarity: 0.0101 - margin: 0.10 - 1m 13s
+epoch: 53/500 - loss G: 2.8391 - loss encoder: 3.1544 - loss discrimination: 0.5071 - loss similarity: 0.0162 - margin: 0.10 - 1m 13s
+epoch: 54/500 - loss G: 2.2132 - loss encoder: 2.6255 - loss discrimination: 0.5840 - loss similarity: 0.0022 - margin: 0.10 - 1m 13s
+epoch: 55/500 - loss G: 2.1025 - loss encoder: 2.5028 - loss discrimination: 0.5220 - loss similarity: 0.0070 - margin: 0.10 - 1m 12s
+epoch: 56/500 - loss G: 2.2731 - loss encoder: 4.0380 - loss discrimination: 0.5202 - loss similarity: 0.0081 - margin: 0.10 - 1m 13s
+epoch: 57/500 - loss G: 4.9656 - loss encoder: 10.8342 - loss discrimination: 1.3242 - loss similarity: 0.0044 - margin: 0.10 - 1m 12s
+epoch: 58/500 - loss G: 5.4171 - loss encoder: 10.0084 - loss discrimination: 0.8525 - loss similarity: 0.0028 - margin: 0.10 - 1m 12s
