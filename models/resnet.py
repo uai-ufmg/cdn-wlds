@@ -66,7 +66,7 @@ class Block(nn.Module):
         x = self.relu(x)
         return x
 
-        
+
 class ResNet(nn.Module):
     def __init__(self, ResBlock, layer_list, num_classes, num_channels=3):
         super(ResNet, self).__init__()
@@ -134,10 +134,10 @@ class ResNet(nn.Module):
 
 def ResNet18(num_classes, channels=3):
     return ResNet(Bottleneck, [2,2,2,2], num_classes, channels)
-        
+
 def ResNet50(num_classes, channels=3):
     return ResNet(Bottleneck, [3,4,6,3], num_classes, channels)
-    
+
 def ResNet101(num_classes, channels=3):
     return ResNet(Bottleneck, [3,4,23,3], num_classes, channels)
 

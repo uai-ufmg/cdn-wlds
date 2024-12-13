@@ -122,4 +122,4 @@ def preprocess_data(train_data:pd.DataFrame, test_data:pd.DataFrame, logs:list[s
         test_data[logs] = scaler.transform(test_data[logs])
 
     return train_data, test_data, scaler
-    
+
